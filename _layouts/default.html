@@ -822,6 +822,14 @@
 
 <!-- =========================
      SMOOTH EXPAND / COLLAPSE
+
+     Text-only sections:
+     animate height + opacity + movement.
+
+     Sections containing images:
+     keep height AUTO so an image that loads
+     after the first click can expand naturally
+     and push the next card downward.
 ========================= -->
 <script>
   (function () {
@@ -861,6 +869,13 @@
           return;
         }
 
+        const containsDynamicMedia =
+          Boolean(
+            content.querySelector(
+              "img, video, iframe"
+            )
+          );
+
         let currentAnimation = null;
 
         let state =
@@ -878,7 +893,194 @@
         }
 
 
-        function getSnapshot() {
+        function cancelCurrentAnimation() {
+          if (!currentAnimation) {
+            return;
+          }
+
+          const animationToCancel =
+            currentAnimation;
+
+          currentAnimation = null;
+
+          animationToCancel.cancel();
+        }
+
+
+        function runAnimation(
+          keyframes,
+          onFinish
+        ) {
+          const animation =
+            content.animate(
+              keyframes,
+              {
+                duration:
+                  animationDuration,
+                easing:
+                  animationEasing,
+                fill:
+                  "both"
+              }
+            );
+
+          currentAnimation =
+            animation;
+
+          animation.onfinish =
+            function () {
+
+              if (
+                currentAnimation !==
+                animation
+              ) {
+                return;
+              }
+
+              currentAnimation = null;
+
+              onFinish();
+            };
+
+          animation.oncancel =
+            function () {
+
+              if (
+                currentAnimation ===
+                animation
+              ) {
+                currentAnimation = null;
+              }
+            };
+        }
+
+
+        /*
+         * IMAGE / MEDIA DETAILS
+         *
+         * Never animate a fixed height here.
+         * The content stays height:auto while
+         * the image loads. This prevents a
+         * late-loading certificate image from
+         * overflowing into the next card.
+         */
+        function openDynamicDetails() {
+
+          cancelCurrentAnimation();
+
+          details.open = true;
+
+          details.classList.remove(
+            "is-closing"
+          );
+
+          state = "opening";
+
+          content.style.height =
+            "auto";
+
+          content.style.overflow =
+            "visible";
+
+          content.style.willChange =
+            "opacity, transform";
+
+          runAnimation(
+            [
+              {
+                opacity: 0,
+                transform:
+                  "translateY(-6px)"
+              },
+              {
+                opacity: 1,
+                transform:
+                  "translateY(0)"
+              }
+            ],
+            function () {
+
+              state = "open";
+
+              clearAnimationStyles();
+
+              /*
+               * Force a fresh layout after any
+               * image that was still loading has
+               * obtained its intrinsic dimensions.
+               */
+              requestAnimationFrame(
+                function () {
+                  void details.offsetHeight;
+                }
+              );
+            }
+          );
+        }
+
+
+        function closeDynamicDetails() {
+
+          if (!details.open) {
+            state = "closed";
+            return;
+          }
+
+          cancelCurrentAnimation();
+
+          details.classList.add(
+            "is-closing"
+          );
+
+          state = "closing";
+
+          content.style.height =
+            "auto";
+
+          content.style.overflow =
+            "visible";
+
+          content.style.willChange =
+            "opacity, transform";
+
+          runAnimation(
+            [
+              {
+                opacity: 1,
+                transform:
+                  "translateY(0)"
+              },
+              {
+                opacity: 0,
+                transform:
+                  "translateY(-6px)"
+              }
+            ],
+            function () {
+
+              details.open = false;
+
+              details.classList.remove(
+                "is-closing"
+              );
+
+              state = "closed";
+
+              clearAnimationStyles();
+            }
+          );
+        }
+
+
+        /*
+         * TEXT-ONLY DETAILS
+         *
+         * Preserve the original smooth
+         * height animation for content that
+         * does not contain dynamic media.
+         */
+        function getTextSnapshot() {
+
           const computedStyle =
             window.getComputedStyle(
               content
@@ -901,36 +1103,36 @@
               : computedStyle.transform;
 
           return {
-            height: currentHeight,
+            height:
+              currentHeight,
+
             opacity:
               Number.isFinite(
                 currentOpacity
               )
                 ? currentOpacity
                 : 1,
+
             transform:
               currentTransform
           };
         }
 
 
-        function cancelCurrentAnimation() {
+        function cancelTextAnimation() {
+
           const snapshot =
-            getSnapshot();
+            getTextSnapshot();
 
-          if (currentAnimation) {
-            const animationToCancel =
-              currentAnimation;
-
-            currentAnimation = null;
-            animationToCancel.cancel();
-          }
+          cancelCurrentAnimation();
 
           content.style.height =
             snapshot.height + "px";
 
           content.style.opacity =
-            String(snapshot.opacity);
+            String(
+              snapshot.opacity
+            );
 
           content.style.transform =
             snapshot.transform;
@@ -939,57 +1141,17 @@
         }
 
 
-        function runAnimation(
-          keyframes,
-          onFinish
-        ) {
-          const animation =
-            content.animate(
-              keyframes,
-              {
-                duration:
-                  animationDuration,
-                easing:
-                  animationEasing,
-                fill: "both"
-              }
-            );
+        function openTextDetails() {
 
-          currentAnimation =
-            animation;
-
-          animation.onfinish =
-            function () {
-              if (
-                currentAnimation !==
-                animation
-              ) {
-                return;
-              }
-
-              currentAnimation = null;
-              onFinish();
-            };
-
-          animation.oncancel =
-            function () {
-              if (
-                currentAnimation ===
-                animation
-              ) {
-                currentAnimation = null;
-              }
-            };
-        }
-
-
-        function openDetails() {
           let start;
 
           if (details.open) {
+
             start =
-              cancelCurrentAnimation();
+              cancelTextAnimation();
+
           } else {
+
             details.open = true;
 
             start = {
@@ -1020,35 +1182,42 @@
               {
                 height:
                   start.height + "px",
+
                 opacity:
                   start.opacity,
+
                 transform:
                   start.transform
               },
               {
                 height:
                   targetHeight + "px",
+
                 opacity: 1,
+
                 transform:
                   "translateY(0)"
               }
             ],
             function () {
+
               state = "open";
+
               clearAnimationStyles();
             }
           );
         }
 
 
-        function closeDetails() {
+        function closeTextDetails() {
+
           if (!details.open) {
             state = "closed";
             return;
           }
 
           const start =
-            cancelCurrentAnimation();
+            cancelTextAnimation();
 
           details.classList.add(
             "is-closing"
@@ -1067,19 +1236,25 @@
               {
                 height:
                   start.height + "px",
+
                 opacity:
                   start.opacity,
+
                 transform:
                   start.transform
               },
               {
-                height: "0px",
+                height:
+                  "0px",
+
                 opacity: 0,
+
                 transform:
                   "translateY(-6px)"
               }
             ],
             function () {
+
               details.open = false;
 
               details.classList.remove(
@@ -1094,17 +1269,93 @@
         }
 
 
+        /*
+         * When an image finishes loading,
+         * make sure its parent remains in
+         * normal document flow.
+         */
+        if (containsDynamicMedia) {
+
+          const mediaItems =
+            content.querySelectorAll(
+              "img, video, iframe"
+            );
+
+          mediaItems.forEach(
+            function (media) {
+
+              const refreshLayout =
+                function () {
+
+                  if (!details.open) {
+                    return;
+                  }
+
+                  content.style.height =
+                    "auto";
+
+                  content.style.overflow =
+                    "visible";
+
+                  requestAnimationFrame(
+                    function () {
+                      void details.offsetHeight;
+                    }
+                  );
+                };
+
+              if (
+                media.tagName === "IMG"
+              ) {
+
+                if (!media.complete) {
+
+                  media.addEventListener(
+                    "load",
+                    refreshLayout,
+                    { once: true }
+                  );
+
+                  media.addEventListener(
+                    "error",
+                    refreshLayout,
+                    { once: true }
+                  );
+                }
+
+              } else {
+
+                media.addEventListener(
+                  "loadedmetadata",
+                  refreshLayout,
+                  { once: true }
+                );
+
+                media.addEventListener(
+                  "load",
+                  refreshLayout,
+                  { once: true }
+                );
+              }
+            }
+          );
+        }
+
+
         summary.addEventListener(
           "click",
           function (event) {
 
             if (reduceMotion.matches) {
+
               window.setTimeout(
                 function () {
+
                   state =
                     details.open
                       ? "open"
                       : "closed";
+
                 },
                 0
               );
@@ -1114,13 +1365,25 @@
 
             event.preventDefault();
 
-            if (
+            const shouldOpen =
               state === "closed" ||
-              state === "closing"
-            ) {
-              openDetails();
+              state === "closing";
+
+            if (containsDynamicMedia) {
+
+              if (shouldOpen) {
+                openDynamicDetails();
+              } else {
+                closeDynamicDetails();
+              }
+
             } else {
-              closeDetails();
+
+              if (shouldOpen) {
+                openTextDetails();
+              } else {
+                closeTextDetails();
+              }
             }
           }
         );
@@ -1128,6 +1391,8 @@
     );
   })();
 </script>
+
+
 
 
 <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
