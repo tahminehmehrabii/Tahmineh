@@ -297,22 +297,12 @@ permalink: /experience/
 
         <figure class="publication-paper-preview">
           <img
-            src="{{ '/assets/img/certificates/Project-Based-Data-Science-Course.jpg' | relative_url }}"
+            src="{{ '/assets/img/Project-Based Data Science Course.jpg' | relative_url }}"
             alt="Project-Based Data Science Course certificate"
             loading="lazy"
           >
         </figure>
-
-        <p class="publication-paper-link">
-          <a
-            href="https://drive.google.com/file/d/16WSLHpierHXpWCTbg8yPrYqL_C9maiwO/view?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer">
-            Open original certificate
-          </a>
-        </p>
-
-      </div>
+</div>
 
     </details>
 
@@ -344,22 +334,12 @@ permalink: /experience/
 
         <figure class="publication-paper-preview">
           <img
-            src="{{ '/assets/img/certificates/RNA-Seq-Data-Analysis.jpg' | relative_url }}"
+            src="{{ '/assets/img/RNA-Seq Data Analysis Mastering Advanced Techniques.jpg' | relative_url }}"
             alt="RNA-Seq Data Analysis: Mastering Advanced Techniques certificate"
             loading="lazy"
           >
         </figure>
-
-        <p class="publication-paper-link">
-          <a
-            href="https://drive.google.com/file/d/1MS5mJNk7mXIM_bSK6k0cEQ68CTXZ-E-f/view?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer">
-            Open original certificate
-          </a>
-        </p>
-
-      </div>
+</div>
 
     </details>
 
@@ -391,22 +371,12 @@ permalink: /experience/
 
         <figure class="publication-paper-preview">
           <img
-            src="{{ '/assets/img/certificates/Bioinformatics-Conference.jpg' | relative_url }}"
+            src="{{ '/assets/img/2nd International and 11th National Iranian Conference on Bioinformatics.png' | relative_url }}"
             alt="2nd International and 11th National Iranian Conference on Bioinformatics certificate"
             loading="lazy"
           >
         </figure>
-
-        <p class="publication-paper-link">
-          <a
-            href="https://drive.google.com/file/d/1owPLcGyD4vQxO_xGx43qiL93XQhtFNQB/view?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer">
-            Open original certificate
-          </a>
-        </p>
-
-      </div>
+</div>
 
     </details>
 
