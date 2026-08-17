@@ -4661,11 +4661,14 @@ screen and (max-width: 720px) {
     box-sizing:
       border-box;
 
+    justify-content:
+      space-evenly;
+
     gap:
-      4px;
+      0;
 
     padding:
-      3px;
+      3px 2px;
 
     border-radius:
       999px;
@@ -4676,13 +4679,13 @@ screen and (max-width: 720px) {
   .nav-links a {
 
     flex:
-      1 1 0;
+      0 0 auto;
 
     min-width:
       0;
 
     padding:
-      7px 1px 9px;
+      7px 2px 9px;
 
     font-size:
       10.5px;
