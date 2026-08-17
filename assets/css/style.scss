@@ -196,6 +196,14 @@ li {
 
 @media screen and (min-width: 961px) {
 
+  header {
+
+    width:
+      325px !important;
+
+  }
+
+
   .wrapper {
 
     width:
@@ -365,13 +373,7 @@ header img {
 .research-focus {
 
   margin:
-    4px 0 20px 0;
-
-  font-size:
-    13px;
-
-  line-height:
-    1.55;
+    8px 0 22px 0;
 
   color:
     var(--text-soft);
@@ -384,40 +386,79 @@ header img {
   position:
     relative;
 
+  display:
+    block;
+
+  box-sizing:
+    border-box;
+
+  width:
+    max-content;
+
+  max-width:
+    none;
+
   margin:
-    0 0 7px 0;
+    0 0 8px 0;
 
   padding-left:
     16px;
 
+  font-size:
+    11px;
+
+  font-weight:
+    400;
+
+  line-height:
+    1.45;
+
+  letter-spacing:
+    -0.01em;
+
   color:
     var(--text-soft);
+
+  white-space:
+    nowrap;
 
 }
 
 
+/* Small academic accent marker */
 .research-focus div::before {
 
   content:
-    "•";
+    "";
 
   position:
     absolute;
 
   left:
-    0;
+    1px;
 
   top:
-    0;
+    50%;
 
-  color:
+  width:
+    6px;
+
+  height:
+    6px;
+
+  background:
     var(--accent);
 
-  font-size:
-    14px;
+  border-radius:
+    2px;
 
-  font-weight:
-    700;
+  box-shadow:
+    0 0 0 2px
+    var(--accent-shadow-soft);
+
+  transform:
+    translateY(-50%)
+    rotate(45deg);
 
 }
 
@@ -4509,6 +4550,36 @@ screen and (max-width: 720px) {
 
     transform:
       none;
+
+  }
+
+
+
+  /* Research interests: keep every item on one line */
+  .research-focus {
+
+    overflow-x:
+      visible;
+
+  }
+
+
+  .research-focus div {
+
+    width:
+      max-content;
+
+    max-width:
+      none;
+
+    padding-left:
+      15px;
+
+    font-size:
+      10.5px;
+
+    white-space:
+      nowrap;
 
   }
 
