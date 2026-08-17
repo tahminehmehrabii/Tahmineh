@@ -4,31 +4,31 @@ permalink: /publications/
 ---
 
 <!-- =========================
-     WORKING PAPERS
+     MANUSCRIPTS
 ========================= -->
 
 <div class="publication-section">
 
   <h3 class="publication-section-title">
-    Working Papers
+    Manuscripts
   </h3>
 
 
-  <!-- =========================
-       WORKING PAPER 1
-  ========================== -->
-
+  <!-- LUAD Manuscript -->
   <article class="publication-item">
 
     <h4 class="publication-title">
-      An Analysis of Value Creation in the Digital Transformation Process of E-commerce using a System Dynamics Approach
+      Integrated Bulk, Single-Cell, and Spatial Transcriptomic Analysis of an
+      NT5E-Associated Glycolysis-Related Prognostic Signature in Lung Adenocarcinoma
     </h4>
 
-
     <p class="publication-venue">
-      Working Paper
+      Manuscript submitted · 2026
     </p>
 
+    <p class="publication-authors">
+      <strong>Mehrabi T</strong>, et al.
+    </p>
 
     <details class="expandable-details">
 
@@ -36,15 +36,13 @@ permalink: /publications/
         View details
       </summary>
 
-
       <div class="details-content">
 
-        <h4 class="publication-subheading">
-          Study Overview
-        </h4>
-
         <p>
-          This study develops a System Dynamics model of value creation during e-commerce digital transformation. The findings suggest that technology investment alone is insufficient for sustained value creation; complementary organizational capabilities—particularly collaboration, responsiveness to customer demand, and entrepreneurial capability—play a central role in translating digital investment into long-term gains in efficiency, customer satisfaction, and profitability.
+          Integrated analysis of bulk RNA-seq, single-cell RNA-seq, and spatial
+          transcriptomic data in lung adenocarcinoma, with emphasis on
+          NT5E-associated biology, glycolysis-related prognostic modeling,
+          tumor heterogeneity, immune context, and spatial tumor organization.
         </p>
 
       </div>
@@ -54,21 +52,22 @@ permalink: /publications/
   </article>
 
 
-  <!-- =========================
-       WORKING PAPER 2
-  ========================== -->
-
+  <!-- LSCC Manuscript -->
   <article class="publication-item">
 
     <h4 class="publication-title">
-      The Generation–Evaluation Asymmetry in Post-Adoption Generative AI: A System Dynamics Model of Organizational Capability and Innovation
+      Integrated Single-Cell and Bulk RNA-seq Analysis Identifies
+      MYBL2-Associated Malignant Heterogeneity and Cell-Cell Communication
+      in Laryngeal Squamous Cell Carcinoma
     </h4>
 
-
     <p class="publication-venue">
-      Working Paper
+      Translational Oncology · Manuscript currently under revision · 2026
     </p>
 
+    <p class="publication-authors">
+      <strong>Mehrabi T</strong>, et al.
+    </p>
 
     <details class="expandable-details">
 
@@ -76,15 +75,13 @@ permalink: /publications/
         View details
       </summary>
 
-
       <div class="details-content">
 
-        <h4 class="publication-subheading">
-          Study Overview
-        </h4>
-
         <p>
-          This study introduces the Generation–Evaluation Asymmetry to explain how GenAI-supported output can expand faster than an organization’s capacity to evaluate, integrate, and retain it as reliable knowledge. A System Dynamics model shows that rapid AI adoption may coexist with declining Human Cognitive Capital and Organizational Knowledge, eventually weakening innovation, while stronger Structural Governance combined with a high Organizational Cognitive Agency Regime supports more sustainable innovation outcomes.
+          Integrated bulk and single-cell RNA-seq study investigating
+          MYBL2-associated malignant heterogeneity, tumor microenvironment
+          associations, and exploratory cell-cell communication in laryngeal
+          squamous cell carcinoma.
         </p>
 
       </div>
@@ -97,35 +94,40 @@ permalink: /publications/
 
 
 <!-- =========================
-     CONFERENCE PAPER
+     PUBLISHED ARTICLES
 ========================= -->
 
 <div class="publication-section">
 
   <h3 class="publication-section-title">
-    Conference Paper
+    Published Articles
   </h3>
 
 
   <article class="publication-item">
 
     <h4 class="publication-title">
-      A Comparison between Rapidly Randomized Tree and Efficient Frontier Methods for Autonomous Mobile Robot Exploration
+      Dysregulated key long non-coding RNAs TP53TG1, RFPL1S, DLEU1, and HCG4
+      associated with epithelial-mesenchymal transition (EMT) in
+      castration-resistant prostate cancer
     </h4>
 
+    <p class="publication-venue">
+      Advances in Cancer Biology - Metastasis · 2025 · 13:100132
+    </p>
 
     <p class="publication-authors">
-      Nima Payandeh,
-      <strong>Farhad Mehrabi</strong>,
-      Rasul Fesharakifard,
-      and Younes AlizadehVaghasloo
+      <strong>Mehrabi T</strong>, Heidarzadehpilehrood R, Mobasheri M,
+      Sobati T, Heshmati M, Pirhoushiaran M.
     </p>
 
-
-    <p class="publication-venue">
-      2022 10th RSI International Conference on Robotics and Mechatronics (ICRoM), IEEE, pp. 466–471.
+    <p>
+      <a href="https://doi.org/10.1016/j.adcanc.2025.100132"
+         target="_blank"
+         rel="noopener noreferrer">
+        DOI: 10.1016/j.adcanc.2025.100132
+      </a>
     </p>
-
 
     <details class="expandable-details">
 
@@ -133,41 +135,68 @@ permalink: /publications/
         View details
       </summary>
 
+      <div class="details-content">
+
+        <p>
+          Study of dysregulated long non-coding RNAs associated with
+          epithelial-mesenchymal transition in castration-resistant prostate cancer.
+        </p>
+
+      </div>
+
+    </details>
+
+  </article>
+
+</div>
+
+
+<!-- =========================
+     PREPRINTS
+========================= -->
+
+<div class="publication-section">
+
+  <h3 class="publication-section-title">
+    Preprints
+  </h3>
+
+
+  <article class="publication-item">
+
+    <h4 class="publication-title">
+      A Bioinformatics Study for Recognition of Hub Genes and Pathways in
+      Pancreatic Ductal Adenocarcinoma
+    </h4>
+
+    <p class="publication-venue">
+      arXiv preprint · 2023 · arXiv:2303.14440
+    </p>
+
+    <p class="publication-authors">
+      Akbarnia Dafrazi A, <strong>Mehrabi T</strong>, Malekinejad F.
+    </p>
+
+    <p>
+      <a href="https://arxiv.org/abs/2303.14440"
+         target="_blank"
+         rel="noopener noreferrer">
+        View preprint
+      </a>
+    </p>
+
+    <details class="expandable-details">
+
+      <summary class="details-toggle">
+        View details
+      </summary>
 
       <div class="details-content">
 
-        <h4 class="publication-subheading">
-          Study Overview
-        </h4>
-
         <p>
-          This study compares Efficient Frontier Exploration and RRT-based exploration for autonomous mobile robots in unknown environments using ROS, Gazebo, and TurtleBot3 experiments. The methods were evaluated in terms of exploration time and travel distance, with RRT-based exploration generally completing the task faster and with less travel, particularly in more complex environments.
+          Bioinformatics study focused on identifying hub genes and biological
+          pathways associated with pancreatic ductal adenocarcinoma.
         </p>
-
-
-        <p class="publication-paper-link">
-          The full paper is available on
-          <a
-            href="https://ieeexplore.ieee.org/abstract/document/10025185"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            IEEE Xplore
-          </a>.
-        </p>
-
-
-        <figure class="publication-paper-preview">
-
-          <img
-            src="{{ '/assets/img/paper01.png' | relative_url }}"
-            alt="First page of the conference paper A Comparison between Rapidly Randomized Tree and Efficient Frontier Methods for Autonomous Mobile Robot Exploration"
-            loading="eager"
-            fetchpriority="high"
-            decoding="async"
-          >
-
-        </figure>
 
       </div>
 
