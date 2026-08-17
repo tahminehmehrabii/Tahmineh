@@ -3,7 +3,6 @@ layout: default
 permalink: /research/
 ---
 
-
 <!-- =========================
      CURRENT RESEARCH
 ========================= -->
@@ -14,28 +13,27 @@ permalink: /research/
     Current Research
   </h3>
 
-
+  <!-- LUAD -->
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Generative AI, Organizational Decision-Making, and Strategic Transformation
+      Integrated Bulk, Single-Cell, and Spatial Transcriptomic Analysis in Lung Adenocarcinoma
     </h4>
 
     <p class="research-project-meta">
-      Ongoing Research
+      Research Collaborator · Jun 2026 – Present
     </p>
 
     <p class="research-project-summary">
-      This research examines how generative AI is reshaping organizational decision-making, strategic capabilities, and managerial processes, with particular attention to AI governance, organizational adaptation, and value creation.
+      Multi-scale transcriptomic analysis investigating an NT5E-associated
+      glycolytic and immunoregulatory program in lung adenocarcinoma, with
+      emphasis on prognosis, tumor microenvironment, and spatial tumor biology.
     </p>
 
-
     <details class="expandable-details">
-
       <summary class="details-toggle">
         View details
       </summary>
-
 
       <div class="details-content">
 
@@ -43,12 +41,90 @@ permalink: /research/
           Research Focus
         </h5>
 
-        <p>
-          The broader objective is to understand the organizational and strategic mechanisms through which AI adoption influences decision-making, organizational capabilities, and long-term transformation.
-        </p>
+        <ul>
+          <li>
+            Integrated bulk RNA-seq, single-cell RNA-seq, and spatial
+            transcriptomic data using differential expression, Cox/LASSO-Cox
+            modeling, survival analysis, ssGSEA, immune-infiltration analysis,
+            Scanpy, Seurat, and spatial neighborhood analyses.
+          </li>
+
+          <li>
+            Developed and externally validated a nine-gene glycolysis-related
+            prognostic model and evaluated its clinicopathological and survival
+            associations.
+          </li>
+
+          <li>
+            Characterized malignant and non-malignant cellular populations at
+            single-cell resolution.
+          </li>
+
+          <li>
+            Investigated NT5E-associated spatial niches across normal,
+            precursor, and invasive lung adenocarcinoma stages.
+          </li>
+        </ul>
 
       </div>
+    </details>
 
+  </article>
+
+
+  <!-- LSCC -->
+  <article class="research-project">
+
+    <h4 class="research-project-title">
+      MYBL2-Associated Malignant Heterogeneity in Laryngeal Squamous Cell Carcinoma
+    </h4>
+
+    <p class="research-project-meta">
+      Research Collaborator · Apr 2026 – Jun 2026
+    </p>
+
+    <p class="research-project-summary">
+      Integrated bulk and single-cell transcriptomic analysis examining MYBL2,
+      malignant epithelial heterogeneity, tumor microenvironment associations,
+      and exploratory cell-cell communication in laryngeal squamous cell carcinoma.
+    </p>
+
+    <details class="expandable-details">
+      <summary class="details-toggle">
+        View details
+      </summary>
+
+      <div class="details-content">
+
+        <h5 class="research-project-subheading">
+          Research Focus
+        </h5>
+
+        <ul>
+          <li>
+            Integrated bulk RNA-seq and single-cell RNA-seq data with
+            machine-learning approaches to prioritize MYBL2 as a candidate
+            transcriptomic marker for LSCC tumor-normal discrimination.
+          </li>
+
+          <li>
+            Characterized MYBL2 expression across High-CNV malignant epithelial
+            subclusters and investigated tumor heterogeneity and functional
+            transcriptional programs.
+          </li>
+
+          <li>
+            Investigated tumor microenvironment associations using immune and
+            stromal analyses.
+          </li>
+
+          <li>
+            Applied inferCNV, pseudotime-based transcriptional-state ordering,
+            and exploratory CellChat ligand-receptor inference.
+          </li>
+        </ul>
+
+      </div>
     </details>
 
   </article>
@@ -56,224 +132,292 @@ permalink: /research/
 </div>
 
 
-
 <!-- =========================
-     SELECTED PROJECTS
+     SELECTED COMPUTATIONAL PROJECTS
 ========================= -->
 
 <div class="research-section">
 
   <h3 class="research-section-title">
-    Selected Projects
+    Selected Computational Projects
   </h3>
 
 
-  <!-- =========================
-       PROJECT 1
-       DIGITAL TRANSFORMATION
-  ========================== -->
-
+  <!-- Spatial LUAD project -->
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Value Creation of Digital Transformation in Digikala: A System Dynamics Approach
+      Spatial Transcriptomics Classification Pipeline for Lung Adenocarcinoma
     </h4>
 
     <p class="research-project-meta">
-      M.A. Thesis · Allameh Tabataba’i University · 2025
+      Visium Spatial Transcriptomics · Machine Learning
     </p>
 
     <p class="research-project-summary">
-      This project investigated how digital transformation policies influence organizational performance and value creation at Digikala, a major Iranian e-commerce company.
+      Spatial transcriptomic analysis of normal, precursor, and lung
+      adenocarcinoma tissues with tissue-level classification.
     </p>
 
-
     <details class="expandable-details">
-
       <summary class="details-toggle">
         View details
       </summary>
 
-
       <div class="details-content">
 
-        <ul class="research-project-details">
-
+        <ul>
           <li>
-            Developed a mixed-method system dynamics model to evaluate the effects of digital transformation policies on organizational performance.
+            Performed quality control, normalization, clustering, and H&amp;E mapping.
           </li>
-
           <li>
-            Modeled five interrelated value-creation subsystems, captured nonlinear feedback structures, and conducted sensitivity analyses of key organizational drivers.
+            Conducted pseudobulk differential expression analysis.
           </li>
-
           <li>
-            Derived theoretical and managerial implications for digital transformation strategy, organizational capability development, and value creation from the simulation results.
+            Built a patient-level SVM classification workflow.
           </li>
-
         </ul>
 
-      </div>
+        <p>
+          <a href="https://github.com/tahminehmehrabii/LUAD-Spatial-Transcriptomics"
+             target="_blank"
+             rel="noopener noreferrer">
+            View project on GitHub
+          </a>
+        </p>
 
+      </div>
     </details>
 
   </article>
 
 
-
-  <!-- =========================
-       PROJECT 2
-       SODA / STARTUP SUCCESS
-  ========================== -->
-
+  <!-- Pancreatic cancer -->
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Developing a Cognitive Map of Startup Success Factors Using Strategic Options Development and Analysis (SODA)
+      Transcriptomic Analysis of Chemoresistance in Pancreatic Cancer
     </h4>
 
     <p class="research-project-meta">
-      Course Project · Soft Operations Research · 2023
+      RNA-seq Analysis
     </p>
 
     <p class="research-project-summary">
-      This project examined the complex and interconnected factors that shape startup success by combining expert perspectives with cognitive mapping.
+      Transcriptomic comparison of oxaliplatin-resistant and untreated PANC-1
+      cells to investigate molecular changes associated with chemoresistance.
     </p>
 
-
     <details class="expandable-details">
-
       <summary class="details-toggle">
         View details
       </summary>
 
-
       <div class="details-content">
 
-        <ul class="research-project-details">
-
+        <ul>
           <li>
-            Conducted semi-structured interviews with entrepreneurs and industry experts to elicit and structure perspectives on startup success factors.
+            Performed RNA-seq quality control.
           </li>
-
           <li>
-            Applied the Strategic Options Development and Analysis (SODA) methodology to develop cognitive maps representing causal relationships and ill-defined strategic problems.
+            Conducted read alignment and gene quantification.
           </li>
-
           <li>
-            Analyzed the resulting cognitive structures to identify strategic themes, leverage points, and key drivers of startup growth.
+            Performed differential expression analysis between resistant and untreated cells.
           </li>
-
         </ul>
 
-      </div>
+        <p>
+          <a href="https://github.com/tahminehmehrabii/RNASeqAnalysis"
+             target="_blank"
+             rel="noopener noreferrer">
+            View project on GitHub
+          </a>
+        </p>
 
+      </div>
     </details>
 
   </article>
 
 
-
-  <!-- =========================
-       PROJECT 3
-       MULTI-SIDED PLATFORMS
-  ========================== -->
-
+  <!-- Breast cancer -->
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Strategic Analysis of Multi-Sided Platforms: A Case Study of Snapp
+      Breast Cancer Biomarker Discovery
     </h4>
 
     <p class="research-project-meta">
-      Course Project · Advanced Strategic Management · 2022
+      Integrated Microarray Analysis · Machine Learning
     </p>
 
     <p class="research-project-summary">
-      This project analyzed the strategic evolution of Snapp as a multi-sided digital platform and examined its expansion from ride-hailing into adjacent markets.
+      Biomarker discovery workflow integrating transcriptomic datasets,
+      co-expression networks, protein-protein interaction analysis, and
+      supervised machine learning.
     </p>
 
-
     <details class="expandable-details">
-
       <summary class="details-toggle">
         View details
       </summary>
 
+      <div class="details-content">
+
+        <ul>
+          <li>
+            Integrated multiple microarray datasets and applied batch-effect correction.
+          </li>
+          <li>
+            Performed WGCNA and protein-protein interaction analysis.
+          </li>
+          <li>
+            Applied LASSO, Random Forest, SVM, and ROC analysis for biomarker
+            identification and validation.
+          </li>
+        </ul>
+
+        <p>
+          <a href="https://github.com/tahminehmehrabii/BCBiomarkers"
+             target="_blank"
+             rel="noopener noreferrer">
+            View project on GitHub
+          </a>
+        </p>
+
+      </div>
+    </details>
+
+  </article>
+
+</div>
+
+
+<!-- =========================
+     RESEARCH EXPERTISE
+========================= -->
+
+<div class="research-section">
+
+  <h3 class="research-section-title">
+    Research Expertise
+  </h3>
+
+  <article class="research-project">
+
+    <h4 class="research-project-title">
+      Computational Cancer Genomics & Transcriptomics
+    </h4>
+
+    <p class="research-project-summary">
+      Experience across bulk transcriptomics, single-cell analysis, spatial
+      transcriptomics, prognostic modeling, and tumor microenvironment analysis.
+    </p>
+
+    <details class="expandable-details">
+      <summary class="details-toggle">
+        View details
+      </summary>
 
       <div class="details-content">
 
-        <ul class="research-project-details">
+        <h5 class="research-project-subheading">
+          Bulk Transcriptomics & Cancer Genomics
+        </h5>
 
-          <li>
-            Applied the Platform Envelopment framework to analyze how Snapp leveraged its existing ride-hailing user base to expand into food delivery, fintech, and retail markets.
-          </li>
+        <p>
+          Bulk RNA-seq processing, differential expression analysis,
+          WGCNA/co-expression network analysis, pathway enrichment, biomarker
+          prioritization, prognostic signature development, survival analysis,
+          external validation, and tumor microenvironment characterization.
+        </p>
 
-          <li>
-            Examined ecosystem dynamics through cross-side network effects and multi-homing risks among supply-side users to assess platform retention challenges.
-          </li>
+        <h5 class="research-project-subheading">
+          Single-Cell & Spatial Transcriptomics
+        </h5>
 
-          <li>
-            Developed strategic recommendations for transitioning from rapid growth toward sustainable profitability, including fintech-enabled mechanisms for increasing switching costs and strengthening platform retention.
-          </li>
+        <p>
+          Quality control and normalization, integration and batch correction,
+          dimensionality reduction, clustering, cell-type annotation,
+          malignant-cell subclustering, CNV inference, pseudotime analysis,
+          cell-cell communication, Visium processing, H&amp;E mapping,
+          spatial clustering, tissue-region classification, and pseudobulk analysis.
+        </p>
 
-        </ul>
+        <h5 class="research-project-subheading">
+          Machine Learning & Biostatistics
+        </h5>
+
+        <p>
+          PCA, hierarchical clustering, Cox and LASSO-Cox regression,
+          Kaplan-Meier analysis, time-dependent ROC/AUC, Random Forest,
+          SVM classification, and cross-validation.
+        </p>
+
+        <h5 class="research-project-subheading">
+          Programming & Bioinformatics Tools
+        </h5>
+
+        <p>
+          R, Python, Linux, Galaxy, DESeq2, Seurat, Scanpy, Harmony, WGCNA,
+          CellChat, Monocle, maftools, ssGSEA, ESTIMATE, and common RNA-seq
+          quality-control and alignment tools.
+        </p>
 
       </div>
-
     </details>
 
   </article>
 
 
-
-  <!-- =========================
-       PROJECT 4
-       BUSINESS PROCESS REENGINEERING
-  ========================== -->
-
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Process Reengineering of Warehousing in Digikala
+      Experimental Research Skills
     </h4>
 
-    <p class="research-project-meta">
-      Course Project · Business Process Reengineering (BPR) · 2022
-    </p>
-
     <p class="research-project-summary">
-      This project examined how technology-enabled process redesign could improve warehouse operations at Digikala through automation and organizational adaptation.
+      Hands-on molecular biology and cancer cell culture experience complementing
+      computational research in cancer genomics.
     </p>
-
 
     <details class="expandable-details">
-
       <summary class="details-toggle">
         View details
       </summary>
 
-
       <div class="details-content">
 
-        <ul class="research-project-details">
+        <h5 class="research-project-subheading">
+          Molecular Biology
+        </h5>
 
-          <li>
-            Analyzed Digikala’s as-is warehouse processes and identified operational bottlenecks, including delays in order allocation and parcel sorting.
-          </li>
+        <p>
+          DNA/RNA extraction, cDNA synthesis, primer design, PCR, RT-PCR,
+          RT-qPCR, agarose gel electrophoresis, and gene-expression analysis.
+        </p>
 
-          <li>
-            Designed a to-be warehouse process integrating autonomous transport robots to automate repetitive activities and reduce order collection time and human error.
-          </li>
+        <h5 class="research-project-subheading">
+          Cancer Cell Culture
+        </h5>
 
-          <li>
-            Developed managerial recommendations for technology-enabled process redesign, emphasizing workforce reskilling and the adaptation of organizational capabilities to automation.
-          </li>
+        <p>
+          Cancer cell culture, aseptic techniques, cell passaging and routine
+          maintenance, cell counting, cryopreservation, and contamination monitoring.
+        </p>
 
-        </ul>
+        <h5 class="research-project-subheading">
+          Laboratory Animal Experience
+        </h5>
+
+        <p>
+          Handling and basic care of laboratory animals, assistance with
+          experimental procedures, sample collection, and adherence to laboratory
+          animal welfare and biosafety protocols.
+        </p>
 
       </div>
-
     </details>
 
   </article>
