@@ -1,20 +1,75 @@
-# Behaviorbot config. See https://github.com/behaviorbot/ for more information.
-# Note: Please Don't edit this file directly.
-# Edit https://github.com/pages-themes/maintenance-scripts instead.
+# ============================================================
+# Tahmineh Mehrabi — Personal Academic Website
+# GitHub Pages / Jekyll Configuration
+# ============================================================
 
-# Configuration for update-docs - https://github.com/behaviorbot/update-docs
-updateDocsComment: "Thanks for the pull request! If you are making any changes to the user-facing functionality, please be sure to update the documentation in the `README` or `docs/` folder alongside your change. :heart:"
+# ------------------------------------------------------------
+# Basic site information
+# ------------------------------------------------------------
 
-# Configuration for request-info - https://github.com/behaviorbot/request-info
-requestInfoReplyComment: Thanks for this. Do you mind providing a bit more information about what problem you're trying to solve?
-requestInfoLabelToAdd: more-information-needed
+title: "Tahmineh Mehrabi"
 
-# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
-#newIssueWelcomeComment: >
-#  Welcome!
+description: "Computational Cancer Researcher"
 
-# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
-newPRWelcomeComment: Welcome! Congrats on your first pull request to the Minimal theme. If you haven't already, please be sure to check out [the contributing guidelines](https://github.com/pages-themes/minimal/blob/master/docs/CONTRIBUTING.md).
+lang: "en-US"
 
-# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
-firstPRMergeComment: "Congrats on getting your first pull request to the Minimal theme merged! Without amazing humans like you submitting pull requests, we couldn’t run this project. You rock! :tada:<br /><br />If you're interested in tackling another bug or feature, take a look at [the open issues](https://github.com/pages-themes/minimal/issues), especially those [labeled `help wanted`](https://github.com/pages-themes/minimal/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)."
+
+# ------------------------------------------------------------
+# GitHub Pages URL
+# IMPORTANT:
+# Keep baseurl as /Tahmineh while the repository name is Tahmineh.
+# If the repository is later renamed to tahminehmehrabii.github.io,
+# change baseurl to: ""
+# ------------------------------------------------------------
+
+url: "https://tahminehmehrabii.github.io"
+
+baseurl: "/Tahmineh"
+
+
+# ------------------------------------------------------------
+# Profile image
+# Picture.jpg is currently stored in the repository root.
+# ------------------------------------------------------------
+
+logo: "/Picture.jpg"
+
+
+# ------------------------------------------------------------
+# Research interests
+# ------------------------------------------------------------
+
+research_interests:
+  - "Spatial Multi-Omics & Spatial Biology"
+  - "Single-Cell Cancer Genomics & Tumor Heterogeneity"
+  - "Tumor Microenvironment & Spatial Cell Interactions"
+  - "Prognostic Biomarkers & Precision Oncology"
+
+
+# ------------------------------------------------------------
+# Personal / academic links
+# ------------------------------------------------------------
+
+email: "TahminehMehrabii@gmail.com"
+
+google_scholar_url: "https://scholar.google.com/citations?hl=en&user=99F_UqcAAAAJ"
+
+researchgate_url: "https://www.researchgate.net/profile/Tahmineh-Mehrabi"
+
+linkedin_url: "https://ir.linkedin.com/in/tahmineh-mehrabi"
+
+github_url: "https://github.com/tahminehmehrabii"
+
+
+# ------------------------------------------------------------
+# Jekyll / GitHub Pages settings
+# ------------------------------------------------------------
+
+theme: jekyll-theme-minimal
+
+show_downloads: false
+
+google_analytics:
+
+titles_from_headings:
+  enabled: false
