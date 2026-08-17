@@ -9,15 +9,14 @@
 
 title: "Tahmineh Mehrabi"
 
-description: "Computational Cancer Researcher"
+description: "Prospective PhD Student"
 
 lang: "en-US"
 
 
 # ------------------------------------------------------------
 # GitHub Pages URL
-# IMPORTANT:
-# Keep baseurl as /Tahmineh while the repository name is Tahmineh.
+# Keep /Tahmineh while the repository name is Tahmineh.
 # If the repository is later renamed to tahminehmehrabii.github.io,
 # change baseurl to: ""
 # ------------------------------------------------------------
@@ -29,10 +28,10 @@ baseurl: "/Tahmineh"
 
 # ------------------------------------------------------------
 # Profile image
-# Picture.jpg is currently stored in the repository root.
+# Picture.jpg is stored in assets/img/.
 # ------------------------------------------------------------
 
-logo: "/Picture.jpg"
+logo: "/assets/img/Picture.jpg"
 
 
 # ------------------------------------------------------------
@@ -41,9 +40,9 @@ logo: "/Picture.jpg"
 
 research_interests:
   - "Spatial Multi-Omics & Spatial Biology"
-  - "Single-Cell Cancer Genomics & Tumor Heterogeneity"
-  - "Tumor Microenvironment & Spatial Cell Interactions"
   - "Prognostic Biomarkers & Precision Oncology"
+  - "Tumor Microenvironment & Spatial Cell Interactions"
+  - "Single-Cell Cancer Genomics & Tumor Heterogeneity"
 
 
 # ------------------------------------------------------------
