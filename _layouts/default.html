@@ -4,14 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
+
+  <title>{{ site.title | default: 'Tahmineh Mehrabi' }}</title>
   {% seo title=false %}
 
+  <!-- =========================
+       INITIAL THEME
+  ========================== -->
   <script>
     (function () {
       document.documentElement.classList.add("stagger-preload");
 
-      const storageKey = "farhad-theme";
+      const storageKey = "tahmineh-theme";
       let savedTheme = null;
 
       try {
@@ -34,9 +38,11 @@
     })();
   </script>
 
+  <!-- Main stylesheet -->
   <link rel="stylesheet"
         href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
+  <!-- Font Awesome -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
@@ -48,22 +54,28 @@
 </head>
 
 <body>
+
 <div class="wrapper">
 
+  <!-- =========================
+       PROFILE / SIDEBAR
+  ========================== -->
   <header>
+
     <h1>
       <a href="{{ '/' | relative_url }}">
-        {{ site.title | default: site.github.repository_name }}
+        {{ site.title | default: 'Tahmineh Mehrabi' }}
       </a>
     </h1>
 
-    {% if site.logo %}
-    <img src="{{ site.logo | relative_url }}" alt="Farhad Mehrabi">
-    {% endif %}
+    <!-- Profile photo uploaded in repository root -->
+    <img src="{{ '/Picture.jpg' | relative_url }}"
+         alt="Tahmineh Mehrabi">
 
     <p class="profile-description">
-      <i class="fa-solid fa-graduation-cap profile-icon" aria-hidden="true"></i>
-      {{ site.description | default: site.github.project_tagline }}
+      <i class="fa-solid fa-graduation-cap profile-icon"
+         aria-hidden="true"></i>
+      {{ site.description | default: 'Computational Cancer Researcher' }}
     </p>
 
     {% if site.research_interests %}
@@ -74,43 +86,62 @@
     </div>
     {% endif %}
 
+    <!-- =========================
+         SOCIAL LINKS
+    ========================== -->
     <div class="social-links">
-      <a href="mailto:FarhaadMehrabi@gmail.com" aria-label="Email" title="Email">
-        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+
+      <a href="mailto:TahminehMehrabii@gmail.com"
+         aria-label="Email"
+         title="Email">
+        <i class="fa-solid fa-envelope"
+           aria-hidden="true"></i>
       </a>
 
-      <a href="https://scholar.google.com/citations?user=sMO1fjQAAAAJ&hl=en"
-         target="_blank" rel="noopener noreferrer"
-         aria-label="Google Scholar" title="Google Scholar">
-        <i class="fa-brands fa-google-scholar" aria-hidden="true"></i>
+      <a href="https://scholar.google.com/citations?hl=en&user=99F_UqcAAAAJ"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Google Scholar"
+         title="Google Scholar">
+        <i class="fa-brands fa-google-scholar"
+           aria-hidden="true"></i>
       </a>
 
-      <a href="https://www.researchgate.net/profile/Farhad-Mehrabi-4"
-         target="_blank" rel="noopener noreferrer"
-         aria-label="ResearchGate" title="ResearchGate">
-        <i class="fa-brands fa-researchgate" aria-hidden="true"></i>
+      <a href="https://www.researchgate.net/profile/Tahmineh-Mehrabi"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="ResearchGate"
+         title="ResearchGate">
+        <i class="fa-brands fa-researchgate"
+           aria-hidden="true"></i>
       </a>
 
-      <a href="https://orcid.org/0009-0009-6995-3292"
-         target="_blank" rel="noopener noreferrer"
-         aria-label="ORCID" title="ORCID">
-        <i class="fa-brands fa-orcid" aria-hidden="true"></i>
+      <a href="https://ir.linkedin.com/in/tahmineh-mehrabi"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="LinkedIn"
+         title="LinkedIn">
+        <i class="fa-brands fa-linkedin"
+           aria-hidden="true"></i>
       </a>
 
-      <a href="https://www.linkedin.com/in/mehrabii/"
-         target="_blank" rel="noopener noreferrer"
-         aria-label="LinkedIn" title="LinkedIn">
-        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      <a href="https://github.com/tahminehmehrabii"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="GitHub"
+         title="GitHub">
+        <i class="fa-brands fa-github"
+           aria-hidden="true"></i>
       </a>
 
-      <a href="https://github.com/fmehrabi"
-         target="_blank" rel="noopener noreferrer"
-         aria-label="GitHub" title="GitHub">
-        <i class="fa-brands fa-github" aria-hidden="true"></i>
-      </a>
     </div>
+
   </header>
 
+
+  <!-- =========================
+       MAIN CONTENT
+  ========================== -->
   <section class="main-content">
 
     <div class="content-toolbar">
@@ -119,46 +150,98 @@
               type="button"
               aria-label="Switch theme"
               title="Switch theme">
-        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        <i class="fa-solid fa-moon"
+           aria-hidden="true"></i>
       </button>
     </div>
 
-    <nav class="site-nav" aria-label="Primary navigation">
+
+    <!-- =========================
+         PRIMARY NAVIGATION
+    ========================== -->
+    <nav class="site-nav"
+         aria-label="Primary navigation">
+
       <div class="nav-links">
-        <span class="nav-indicator" aria-hidden="true"></span>
+
+        <span class="nav-indicator"
+              aria-hidden="true"></span>
 
         <a href="{{ '/' | relative_url }}"
-           {% if page.url == '/' %} class="active" aria-current="page" {% endif %}>About</a>
+           {% if page.url == '/' %}
+           class="active"
+           aria-current="page"
+           {% endif %}>
+          About
+        </a>
+
+        <a href="{{ '/education/' | relative_url }}"
+           {% if page.url == '/education/' %}
+           class="active"
+           aria-current="page"
+           {% endif %}>
+          Education
+        </a>
 
         <a href="{{ '/research/' | relative_url }}"
-           {% if page.url == '/research/' %} class="active" aria-current="page" {% endif %}>Research</a>
+           {% if page.url == '/research/' %}
+           class="active"
+           aria-current="page"
+           {% endif %}>
+          Research
+        </a>
 
         <a href="{{ '/publications/' | relative_url }}"
-           {% if page.url == '/publications/' %} class="active" aria-current="page" {% endif %}>Publication</a>
+           {% if page.url == '/publications/' %}
+           class="active"
+           aria-current="page"
+           {% endif %}>
+          Publication
+        </a>
 
         <a href="{{ '/experience/' | relative_url }}"
-           {% if page.url == '/experience/' %} class="active" aria-current="page" {% endif %}>Experience</a>
+           {% if page.url == '/experience/' %}
+           class="active"
+           aria-current="page"
+           {% endif %}>
+          Experience
+        </a>
+
       </div>
+
     </nav>
+
 
     <div class="page-content">
       {{ content }}
     </div>
+
   </section>
 
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
   <footer>
-    <p><small>
-      Hosted on GitHub Pages &mdash;
-      Based on the Minimal theme by
-      <a href="https://github.com/orderedlist"
-         target="_blank" rel="noopener noreferrer">orderedlist</a>
-      &mdash; Extensively customized
-    </small></p>
+    <p>
+      <small>
+        Hosted on GitHub Pages &mdash;
+        Based on the Minimal theme by
+        <a href="https://github.com/orderedlist"
+           target="_blank"
+           rel="noopener noreferrer">
+          orderedlist
+        </a>
+        &mdash; Extensively customized
+      </small>
+    </p>
   </footer>
 
 </div>
 
+
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
 
 <!-- =========================
      CASCADING PAGE REVEAL
@@ -208,12 +291,13 @@
   })();
 </script>
 
+
 <!-- =========================
      DARK / LIGHT MODE
 ========================= -->
 <script>
   (function () {
-    const storageKey = "farhad-theme";
+    const storageKey = "tahmineh-theme";
     const root = document.documentElement;
     const toggle = document.getElementById("theme-toggle");
 
@@ -222,6 +306,7 @@
     }
 
     const icon = toggle.querySelector("i");
+
     const systemThemeQuery =
       window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -244,18 +329,31 @@
 
       if (theme === "dark") {
         icon.className = "fa-solid fa-sun";
-        toggle.setAttribute("aria-label", "Switch to light mode");
-        toggle.setAttribute("title", "Switch to light mode");
+        toggle.setAttribute(
+          "aria-label",
+          "Switch to light mode"
+        );
+        toggle.setAttribute(
+          "title",
+          "Switch to light mode"
+        );
       } else {
         icon.className = "fa-solid fa-moon";
-        toggle.setAttribute("aria-label", "Switch to dark mode");
-        toggle.setAttribute("title", "Switch to dark mode");
+        toggle.setAttribute(
+          "aria-label",
+          "Switch to dark mode"
+        );
+        toggle.setAttribute(
+          "title",
+          "Switch to dark mode"
+        );
       }
     }
 
     function applyTheme(theme, savePreference) {
       root.setAttribute("data-theme", theme);
       root.style.colorScheme = theme;
+
       updateToggle(theme);
 
       if (savePreference) {
@@ -279,7 +377,9 @@
         root.getAttribute("data-theme") || "light";
 
       const nextTheme =
-        activeTheme === "dark" ? "light" : "dark";
+        activeTheme === "dark"
+          ? "light"
+          : "dark";
 
       applyTheme(nextTheme, true);
     });
@@ -287,41 +387,58 @@
     function handleSystemThemeChange() {
       const savedTheme = getSavedTheme();
 
-      if (savedTheme !== "dark" && savedTheme !== "light") {
+      if (
+        savedTheme !== "dark" &&
+        savedTheme !== "light"
+      ) {
         applyTheme(getSystemTheme(), false);
       }
     }
 
     if (systemThemeQuery.addEventListener) {
-      systemThemeQuery.addEventListener("change", handleSystemThemeChange);
+      systemThemeQuery.addEventListener(
+        "change",
+        handleSystemThemeChange
+      );
     } else if (systemThemeQuery.addListener) {
-      systemThemeQuery.addListener(handleSystemThemeChange);
+      systemThemeQuery.addListener(
+        handleSystemThemeChange
+      );
     }
   })();
 </script>
+
 
 <!-- =========================
      SLIDING NAVIGATION PILL
 ========================= -->
 <script>
   (function () {
-    const nav = document.querySelector(".nav-links");
+    const nav =
+      document.querySelector(".nav-links");
 
     if (!nav) {
       return;
     }
 
-    const indicator = nav.querySelector(".nav-indicator");
-    const links = Array.from(nav.querySelectorAll("a"));
+    const indicator =
+      nav.querySelector(".nav-indicator");
+
+    const links =
+      Array.from(nav.querySelectorAll("a"));
 
     if (!indicator || !links.length) {
       return;
     }
 
     const reduceMotion =
-      window.matchMedia("(prefers-reduced-motion: reduce)");
+      window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      );
 
-    let activeLink = nav.querySelector("a.active");
+    let activeLink =
+      nav.querySelector("a.active");
+
     let navigationPending = false;
 
     function getSlideDuration() {
@@ -350,15 +467,30 @@
         return;
       }
 
-      const navRect = nav.getBoundingClientRect();
-      const linkRect = link.getBoundingClientRect();
-      const x = linkRect.left - navRect.left;
-      const y = linkRect.top - navRect.top;
+      const navRect =
+        nav.getBoundingClientRect();
 
-      indicator.style.width = linkRect.width + "px";
-      indicator.style.height = linkRect.height + "px";
+      const linkRect =
+        link.getBoundingClientRect();
+
+      const x =
+        linkRect.left - navRect.left;
+
+      const y =
+        linkRect.top - navRect.top;
+
+      indicator.style.width =
+        linkRect.width + "px";
+
+      indicator.style.height =
+        linkRect.height + "px";
+
       indicator.style.transform =
-        "translate3d(" + x + "px, " + y + "px, 0)";
+        "translate3d(" +
+        x +
+        "px, " +
+        y +
+        "px, 0)";
     }
 
     function positionImmediately(link) {
@@ -366,13 +498,21 @@
         return;
       }
 
-      indicator.classList.add("no-transition");
+      indicator.classList.add(
+        "no-transition"
+      );
+
       moveIndicatorTo(link);
-      nav.classList.add("js-nav-ready");
+
+      nav.classList.add(
+        "js-nav-ready"
+      );
 
       requestAnimationFrame(function () {
         requestAnimationFrame(function () {
-          indicator.classList.remove("no-transition");
+          indicator.classList.remove(
+            "no-transition"
+          );
         });
       });
     }
@@ -382,95 +522,142 @@
     }
 
     links.forEach(function (link) {
-      link.addEventListener("click", function (event) {
-        if (
-          event.ctrlKey ||
-          event.metaKey ||
-          event.shiftKey ||
-          event.altKey ||
-          event.button !== 0
-        ) {
-          return;
-        }
+      link.addEventListener(
+        "click",
+        function (event) {
 
-        const destination = new URL(link.href, window.location.href);
-        const current = new URL(window.location.href);
+          if (
+            event.ctrlKey ||
+            event.metaKey ||
+            event.shiftKey ||
+            event.altKey ||
+            event.button !== 0
+          ) {
+            return;
+          }
 
-        if (destination.pathname === current.pathname) {
+          const destination =
+            new URL(
+              link.href,
+              window.location.href
+            );
+
+          const current =
+            new URL(
+              window.location.href
+            );
+
+          if (
+            destination.pathname ===
+            current.pathname
+          ) {
+            event.preventDefault();
+            return;
+          }
+
+          if (reduceMotion.matches) {
+            return;
+          }
+
           event.preventDefault();
-          return;
+
+          if (navigationPending) {
+            return;
+          }
+
+          navigationPending = true;
+
+          links.forEach(function (item) {
+            item.classList.remove(
+              "is-transition-target"
+            );
+          });
+
+          link.classList.add(
+            "is-transition-target"
+          );
+
+          moveIndicatorTo(link);
+
+          const duration =
+            getSlideDuration();
+
+          window.setTimeout(
+            function () {
+              window.location.href =
+                link.href;
+            },
+            duration + 30
+          );
         }
-
-        if (reduceMotion.matches) {
-          return;
-        }
-
-        event.preventDefault();
-
-        if (navigationPending) {
-          return;
-        }
-
-        navigationPending = true;
-
-        links.forEach(function (item) {
-          item.classList.remove("is-transition-target");
-        });
-
-        link.classList.add("is-transition-target");
-        moveIndicatorTo(link);
-
-        const duration = getSlideDuration();
-
-        window.setTimeout(function () {
-          window.location.href = link.href;
-        }, duration + 30);
-      });
+      );
     });
 
     function handleResize() {
-      activeLink = nav.querySelector("a.active");
+      activeLink =
+        nav.querySelector("a.active");
 
       if (activeLink) {
         positionImmediately(activeLink);
       }
     }
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener(
+      "resize",
+      handleResize
+    );
 
-    window.addEventListener("pageshow", function () {
-      navigationPending = false;
+    window.addEventListener(
+      "pageshow",
+      function () {
 
-      links.forEach(function (item) {
-        item.classList.remove("is-transition-target");
-      });
+        navigationPending = false;
 
-      activeLink = nav.querySelector("a.active");
+        links.forEach(function (item) {
+          item.classList.remove(
+            "is-transition-target"
+          );
+        });
 
-      if (activeLink) {
-        positionImmediately(activeLink);
-      }
-    });
-
-    window.addEventListener("load", function () {
-      activeLink = nav.querySelector("a.active");
-
-      if (activeLink) {
-        positionImmediately(activeLink);
-      }
-    });
-
-    if (document.fonts && document.fonts.ready) {
-      document.fonts.ready.then(function () {
-        activeLink = nav.querySelector("a.active");
+        activeLink =
+          nav.querySelector("a.active");
 
         if (activeLink) {
           positionImmediately(activeLink);
         }
-      });
+      }
+    );
+
+    window.addEventListener(
+      "load",
+      function () {
+        activeLink =
+          nav.querySelector("a.active");
+
+        if (activeLink) {
+          positionImmediately(activeLink);
+        }
+      }
+    );
+
+    if (
+      document.fonts &&
+      document.fonts.ready
+    ) {
+      document.fonts.ready.then(
+        function () {
+          activeLink =
+            nav.querySelector("a.active");
+
+          if (activeLink) {
+            positionImmediately(activeLink);
+          }
+        }
+      );
     }
   })();
 </script>
+
 
 <!-- =========================
      CURSOR-FOLLOW CARD SPOTLIGHT
@@ -478,21 +665,29 @@
 <script>
   (function () {
     const finePointer =
-      window.matchMedia("(hover: hover) and (pointer: fine)");
+      window.matchMedia(
+        "(hover: hover) and (pointer: fine)"
+      );
 
     const reduceMotion =
-      window.matchMedia("(prefers-reduced-motion: reduce)");
+      window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      );
 
-    if (!finePointer.matches || reduceMotion.matches) {
+    if (
+      !finePointer.matches ||
+      reduceMotion.matches
+    ) {
       return;
     }
 
-    const cards = document.querySelectorAll(
-      ".about-text, " +
-      ".research-project, " +
-      ".publication-item, " +
-      ".experience-item"
-    );
+    const cards =
+      document.querySelectorAll(
+        ".about-text, " +
+        ".research-project, " +
+        ".publication-item, " +
+        ".experience-item"
+      );
 
     if (!cards.length) {
       return;
@@ -501,70 +696,128 @@
     cards.forEach(function (card) {
       let targetX = 0;
       let targetY = 0;
+
       let currentX = 0;
       let currentY = 0;
+
       let animationFrame = null;
       let isInside = false;
 
       function animateSpotlight() {
         const smoothing = 0.18;
 
-        currentX += (targetX - currentX) * smoothing;
-        currentY += (targetY - currentY) * smoothing;
+        currentX +=
+          (targetX - currentX) *
+          smoothing;
 
-        card.style.setProperty("--mouse-x", currentX + "px");
-        card.style.setProperty("--mouse-y", currentY + "px");
+        currentY +=
+          (targetY - currentY) *
+          smoothing;
+
+        card.style.setProperty(
+          "--mouse-x",
+          currentX + "px"
+        );
+
+        card.style.setProperty(
+          "--mouse-y",
+          currentY + "px"
+        );
 
         const distance =
           Math.abs(targetX - currentX) +
           Math.abs(targetY - currentY);
 
-        if (isInside || distance > 0.4) {
-          animationFrame = requestAnimationFrame(animateSpotlight);
+        if (
+          isInside ||
+          distance > 0.4
+        ) {
+          animationFrame =
+            requestAnimationFrame(
+              animateSpotlight
+            );
         } else {
           animationFrame = null;
         }
       }
 
       function updateTarget(event) {
-        const rect = card.getBoundingClientRect();
+        const rect =
+          card.getBoundingClientRect();
 
-        targetX = event.clientX - rect.left;
-        targetY = event.clientY - rect.top;
+        targetX =
+          event.clientX - rect.left;
+
+        targetY =
+          event.clientY - rect.top;
 
         if (!animationFrame) {
-          animationFrame = requestAnimationFrame(animateSpotlight);
+          animationFrame =
+            requestAnimationFrame(
+              animateSpotlight
+            );
         }
       }
 
-      card.addEventListener("pointerenter", function (event) {
-        const rect = card.getBoundingClientRect();
+      card.addEventListener(
+        "pointerenter",
+        function (event) {
+          const rect =
+            card.getBoundingClientRect();
 
-        targetX = event.clientX - rect.left;
-        targetY = event.clientY - rect.top;
-        currentX = targetX;
-        currentY = targetY;
+          targetX =
+            event.clientX - rect.left;
 
-        card.style.setProperty("--mouse-x", currentX + "px");
-        card.style.setProperty("--mouse-y", currentY + "px");
+          targetY =
+            event.clientY - rect.top;
 
-        isInside = true;
-        card.classList.add("cursor-spotlight-active");
+          currentX = targetX;
+          currentY = targetY;
 
-        if (!animationFrame) {
-          animationFrame = requestAnimationFrame(animateSpotlight);
+          card.style.setProperty(
+            "--mouse-x",
+            currentX + "px"
+          );
+
+          card.style.setProperty(
+            "--mouse-y",
+            currentY + "px"
+          );
+
+          isInside = true;
+
+          card.classList.add(
+            "cursor-spotlight-active"
+          );
+
+          if (!animationFrame) {
+            animationFrame =
+              requestAnimationFrame(
+                animateSpotlight
+              );
+          }
         }
-      });
+      );
 
-      card.addEventListener("pointermove", updateTarget);
+      card.addEventListener(
+        "pointermove",
+        updateTarget
+      );
 
-      card.addEventListener("pointerleave", function () {
-        isInside = false;
-        card.classList.remove("cursor-spotlight-active");
-      });
+      card.addEventListener(
+        "pointerleave",
+        function () {
+          isInside = false;
+
+          card.classList.remove(
+            "cursor-spotlight-active"
+          );
+        }
+      );
     });
   })();
 </script>
+
 
 <!-- =========================
      SMOOTH EXPAND / COLLAPSE
@@ -572,195 +825,309 @@
 <script>
   (function () {
     const detailsElements =
-      document.querySelectorAll(".expandable-details");
+      document.querySelectorAll(
+        ".expandable-details"
+      );
 
     if (!detailsElements.length) {
       return;
     }
 
     const animationDuration = 1000;
+
     const animationEasing =
       "cubic-bezier(0.4, 0, 0.2, 1)";
 
     const reduceMotion =
-      window.matchMedia("(prefers-reduced-motion: reduce)");
+      window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      );
 
-    detailsElements.forEach(function (details) {
-      const summary = details.querySelector(".details-toggle");
-      const content = details.querySelector(".details-content");
+    detailsElements.forEach(
+      function (details) {
 
-      if (!summary || !content) {
-        return;
-      }
+        const summary =
+          details.querySelector(
+            ".details-toggle"
+          );
 
-      let currentAnimation = null;
-      let state = details.open ? "open" : "closed";
+        const content =
+          details.querySelector(
+            ".details-content"
+          );
 
-      function clearAnimationStyles() {
-        content.style.height = "";
-        content.style.opacity = "";
-        content.style.transform = "";
-        content.style.overflow = "";
-        content.style.willChange = "";
-      }
-
-      function getSnapshot() {
-        const computedStyle = window.getComputedStyle(content);
-        const currentHeight = content.getBoundingClientRect().height;
-        const currentOpacity = parseFloat(computedStyle.opacity);
-        const currentTransform =
-          computedStyle.transform === "none"
-            ? "translateY(0)"
-            : computedStyle.transform;
-
-        return {
-          height: currentHeight,
-          opacity: Number.isFinite(currentOpacity) ? currentOpacity : 1,
-          transform: currentTransform
-        };
-      }
-
-      function cancelCurrentAnimation() {
-        const snapshot = getSnapshot();
-
-        if (currentAnimation) {
-          const animationToCancel = currentAnimation;
-          currentAnimation = null;
-          animationToCancel.cancel();
+        if (!summary || !content) {
+          return;
         }
 
-        content.style.height = snapshot.height + "px";
-        content.style.opacity = String(snapshot.opacity);
-        content.style.transform = snapshot.transform;
+        let currentAnimation = null;
 
-        return snapshot;
-      }
+        let state =
+          details.open
+            ? "open"
+            : "closed";
 
-      function runAnimation(keyframes, onFinish) {
-        const animation = content.animate(
-          keyframes,
-          {
-            duration: animationDuration,
-            easing: animationEasing,
-            fill: "both"
-          }
-        );
 
-        currentAnimation = animation;
+        function clearAnimationStyles() {
+          content.style.height = "";
+          content.style.opacity = "";
+          content.style.transform = "";
+          content.style.overflow = "";
+          content.style.willChange = "";
+        }
 
-        animation.onfinish = function () {
-          if (currentAnimation !== animation) {
-            return;
-          }
 
-          currentAnimation = null;
-          onFinish();
-        };
+        function getSnapshot() {
+          const computedStyle =
+            window.getComputedStyle(
+              content
+            );
 
-        animation.oncancel = function () {
-          if (currentAnimation === animation) {
-            currentAnimation = null;
-          }
-        };
-      }
+          const currentHeight =
+            content
+              .getBoundingClientRect()
+              .height;
 
-      function openDetails() {
-        let start;
+          const currentOpacity =
+            parseFloat(
+              computedStyle.opacity
+            );
 
-        if (details.open) {
-          start = cancelCurrentAnimation();
-        } else {
-          details.open = true;
-          start = {
-            height: 0,
-            opacity: 0,
-            transform: "translateY(-6px)"
+          const currentTransform =
+            computedStyle.transform ===
+            "none"
+              ? "translateY(0)"
+              : computedStyle.transform;
+
+          return {
+            height: currentHeight,
+            opacity:
+              Number.isFinite(
+                currentOpacity
+              )
+                ? currentOpacity
+                : 1,
+            transform:
+              currentTransform
           };
         }
 
-        details.classList.remove("is-closing");
-        state = "opening";
 
-        content.style.overflow = "hidden";
-        content.style.willChange = "height, opacity, transform";
+        function cancelCurrentAnimation() {
+          const snapshot =
+            getSnapshot();
 
-        const targetHeight = content.scrollHeight;
+          if (currentAnimation) {
+            const animationToCancel =
+              currentAnimation;
 
-        runAnimation(
-          [
-            {
-              height: start.height + "px",
-              opacity: start.opacity,
-              transform: start.transform
-            },
-            {
-              height: targetHeight + "px",
-              opacity: 1,
-              transform: "translateY(0)"
-            }
-          ],
-          function () {
-            state = "open";
-            clearAnimationStyles();
+            currentAnimation = null;
+            animationToCancel.cancel();
           }
-        );
-      }
 
-      function closeDetails() {
-        if (!details.open) {
-          state = "closed";
-          return;
+          content.style.height =
+            snapshot.height + "px";
+
+          content.style.opacity =
+            String(snapshot.opacity);
+
+          content.style.transform =
+            snapshot.transform;
+
+          return snapshot;
         }
 
-        const start = cancelCurrentAnimation();
 
-        details.classList.add("is-closing");
-        state = "closing";
+        function runAnimation(
+          keyframes,
+          onFinish
+        ) {
+          const animation =
+            content.animate(
+              keyframes,
+              {
+                duration:
+                  animationDuration,
+                easing:
+                  animationEasing,
+                fill: "both"
+              }
+            );
 
-        content.style.overflow = "hidden";
-        content.style.willChange = "height, opacity, transform";
+          currentAnimation =
+            animation;
 
-        runAnimation(
-          [
-            {
-              height: start.height + "px",
-              opacity: start.opacity,
-              transform: start.transform
-            },
-            {
-              height: "0px",
+          animation.onfinish =
+            function () {
+              if (
+                currentAnimation !==
+                animation
+              ) {
+                return;
+              }
+
+              currentAnimation = null;
+              onFinish();
+            };
+
+          animation.oncancel =
+            function () {
+              if (
+                currentAnimation ===
+                animation
+              ) {
+                currentAnimation = null;
+              }
+            };
+        }
+
+
+        function openDetails() {
+          let start;
+
+          if (details.open) {
+            start =
+              cancelCurrentAnimation();
+          } else {
+            details.open = true;
+
+            start = {
+              height: 0,
               opacity: 0,
-              transform: "translateY(-6px)"
+              transform:
+                "translateY(-6px)"
+            };
+          }
+
+          details.classList.remove(
+            "is-closing"
+          );
+
+          state = "opening";
+
+          content.style.overflow =
+            "hidden";
+
+          content.style.willChange =
+            "height, opacity, transform";
+
+          const targetHeight =
+            content.scrollHeight;
+
+          runAnimation(
+            [
+              {
+                height:
+                  start.height + "px",
+                opacity:
+                  start.opacity,
+                transform:
+                  start.transform
+              },
+              {
+                height:
+                  targetHeight + "px",
+                opacity: 1,
+                transform:
+                  "translateY(0)"
+              }
+            ],
+            function () {
+              state = "open";
+              clearAnimationStyles();
             }
-          ],
-          function () {
-            details.open = false;
-            details.classList.remove("is-closing");
+          );
+        }
+
+
+        function closeDetails() {
+          if (!details.open) {
             state = "closed";
-            clearAnimationStyles();
+            return;
+          }
+
+          const start =
+            cancelCurrentAnimation();
+
+          details.classList.add(
+            "is-closing"
+          );
+
+          state = "closing";
+
+          content.style.overflow =
+            "hidden";
+
+          content.style.willChange =
+            "height, opacity, transform";
+
+          runAnimation(
+            [
+              {
+                height:
+                  start.height + "px",
+                opacity:
+                  start.opacity,
+                transform:
+                  start.transform
+              },
+              {
+                height: "0px",
+                opacity: 0,
+                transform:
+                  "translateY(-6px)"
+              }
+            ],
+            function () {
+              details.open = false;
+
+              details.classList.remove(
+                "is-closing"
+              );
+
+              state = "closed";
+
+              clearAnimationStyles();
+            }
+          );
+        }
+
+
+        summary.addEventListener(
+          "click",
+          function (event) {
+
+            if (reduceMotion.matches) {
+              window.setTimeout(
+                function () {
+                  state =
+                    details.open
+                      ? "open"
+                      : "closed";
+                },
+                0
+              );
+
+              return;
+            }
+
+            event.preventDefault();
+
+            if (
+              state === "closed" ||
+              state === "closing"
+            ) {
+              openDetails();
+            } else {
+              closeDetails();
+            }
           }
         );
       }
-
-      summary.addEventListener("click", function (event) {
-        if (reduceMotion.matches) {
-          window.setTimeout(function () {
-            state = details.open ? "open" : "closed";
-          }, 0);
-          return;
-        }
-
-        event.preventDefault();
-
-        if (state === "closed" || state === "closing") {
-          openDetails();
-        } else {
-          closeDetails();
-        }
-      });
-    });
+    );
   })();
 </script>
+
 
 <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 
