@@ -14,7 +14,6 @@ permalink: /experience/
   </h3>
 
 
-  <!-- LUAD Research Collaborator -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -76,7 +75,6 @@ permalink: /experience/
   </article>
 
 
-  <!-- LSCC Research Collaborator -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -133,7 +131,6 @@ permalink: /experience/
   </article>
 
 
-  <!-- Research Assistant -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -205,7 +202,6 @@ permalink: /experience/
   </h3>
 
 
-  <!-- Molecular Laboratory Technician -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -266,7 +262,7 @@ permalink: /experience/
 
 
 <!-- =========================
-     SELECTED TRAINING
+     SELECTED TRAINING & CERTIFICATIONS
 ========================= -->
 
 <div class="experience-section">
@@ -276,6 +272,7 @@ permalink: /experience/
   </h3>
 
 
+  <!-- Certificate 1 -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -290,9 +287,39 @@ permalink: /experience/
 
     </div>
 
+    <details class="expandable-details">
+
+      <summary class="details-toggle">
+        View certificate
+      </summary>
+
+      <div class="details-content">
+
+        <figure class="publication-paper-preview">
+          <img
+            src="{{ '/assets/img/certificates/Project-Based-Data-Science-Course.jpg' | relative_url }}"
+            alt="Project-Based Data Science Course certificate"
+            loading="lazy"
+          >
+        </figure>
+
+        <p class="publication-paper-link">
+          <a
+            href="https://drive.google.com/file/d/16WSLHpierHXpWCTbg8yPrYqL_C9maiwO/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer">
+            Open original certificate
+          </a>
+        </p>
+
+      </div>
+
+    </details>
+
   </article>
 
 
+  <!-- Certificate 2 -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -307,9 +334,39 @@ permalink: /experience/
 
     </div>
 
+    <details class="expandable-details">
+
+      <summary class="details-toggle">
+        View certificate
+      </summary>
+
+      <div class="details-content">
+
+        <figure class="publication-paper-preview">
+          <img
+            src="{{ '/assets/img/certificates/RNA-Seq-Data-Analysis.jpg' | relative_url }}"
+            alt="RNA-Seq Data Analysis: Mastering Advanced Techniques certificate"
+            loading="lazy"
+          >
+        </figure>
+
+        <p class="publication-paper-link">
+          <a
+            href="https://drive.google.com/file/d/1MS5mJNk7mXIM_bSK6k0cEQ68CTXZ-E-f/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer">
+            Open original certificate
+          </a>
+        </p>
+
+      </div>
+
+    </details>
+
   </article>
 
 
+  <!-- Certificate 3 -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -323,6 +380,35 @@ permalink: /experience/
       </span>
 
     </div>
+
+    <details class="expandable-details">
+
+      <summary class="details-toggle">
+        View certificate
+      </summary>
+
+      <div class="details-content">
+
+        <figure class="publication-paper-preview">
+          <img
+            src="{{ '/assets/img/certificates/Bioinformatics-Conference.jpg' | relative_url }}"
+            alt="2nd International and 11th National Iranian Conference on Bioinformatics certificate"
+            loading="lazy"
+          >
+        </figure>
+
+        <p class="publication-paper-link">
+          <a
+            href="https://drive.google.com/file/d/1owPLcGyD4vQxO_xGx43qiL93XQhtFNQB/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer">
+            Open original certificate
+          </a>
+        </p>
+
+      </div>
+
+    </details>
 
   </article>
 
