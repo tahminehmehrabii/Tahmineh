@@ -3,7 +3,6 @@ layout: default
 permalink: /experience/
 ---
 
-
 <!-- =========================
      RESEARCH EXPERIENCE
 ========================= -->
@@ -15,34 +14,25 @@ permalink: /experience/
   </h3>
 
 
-  <!-- =========================
-       ALLAMEH TABATABA'I
-       RESEARCH ASSISTANT
-  ========================== -->
-
+  <!-- LUAD Research Collaborator -->
   <article class="experience-item">
 
     <div class="experience-header">
 
       <h4 class="experience-role">
-        Research Assistant
+        Research Collaborator
       </h4>
 
       <span class="experience-date">
-        2024 – Present
+        Jun 2026 – Present
       </span>
 
     </div>
 
-
     <p class="experience-organization">
-      Allameh Tabataba’i University
+      Integrated Bulk, Single-Cell, and Spatial Transcriptomic Analysis Identifies an
+      NT5E-Associated Glycolytic and Immunoregulatory Program in Lung Adenocarcinoma
     </p>
-
-    <p class="experience-meta">
-      Department of IT and Operations Management · Supervisor: Dr. Mojtaba HajianHeidary
-    </p>
-
 
     <details class="expandable-details">
 
@@ -50,21 +40,31 @@ permalink: /experience/
         View details
       </summary>
 
-
       <div class="details-content">
 
         <ul class="experience-details">
 
           <li>
-            Designed research frameworks and methodological strategies for graduate projects in strategic management, information systems, and technology-enabled organizational phenomena.
+            Integrated bulk RNA-seq, single-cell RNA-seq, and spatial transcriptomic
+            data using differential expression, Cox/LASSO-Cox modeling, survival
+            analysis, ssGSEA, immune-infiltration analysis, Scanpy, Seurat, and
+            spatial neighborhood analyses.
           </li>
 
           <li>
-            Conducted mixed-method research involving literature reviews, qualitative analysis, quantitative data analysis, and system dynamics modeling.
+            Developed and externally validated a nine-gene glycolysis-related
+            prognostic model and evaluated its clinicopathological and survival
+            associations.
           </li>
 
           <li>
-            Contributed to manuscript development and working papers on human–AI co-governance, strategic management, and digital transformation, while supporting graduate students in research design and proposal development.
+            Characterized malignant and non-malignant cellular populations at
+            single-cell resolution.
+          </li>
+
+          <li>
+            Investigated NT5E-associated spatial niches across normal, precursor,
+            and invasive lung adenocarcinoma stages.
           </li>
 
         </ul>
@@ -76,12 +76,64 @@ permalink: /experience/
   </article>
 
 
+  <!-- LSCC Research Collaborator -->
+  <article class="experience-item">
 
-  <!-- =========================
-       AMIRKABIR UNIVERSITY
-       RESEARCH ASSISTANT
-  ========================== -->
+    <div class="experience-header">
 
+      <h4 class="experience-role">
+        Research Collaborator
+      </h4>
+
+      <span class="experience-date">
+        Apr 2026 – Jun 2026
+      </span>
+
+    </div>
+
+    <p class="experience-organization">
+      Integrated Bulk and Single-Cell Transcriptomic Analysis Identifies
+      MYBL2-Associated Malignant Heterogeneity in Laryngeal Squamous Cell Carcinoma
+    </p>
+
+    <details class="expandable-details">
+
+      <summary class="details-toggle">
+        View details
+      </summary>
+
+      <div class="details-content">
+
+        <ul class="experience-details">
+
+          <li>
+            Integrated bulk RNA-seq and single-cell RNA-seq data with machine-learning
+            approaches to prioritize MYBL2 as a candidate transcriptomic marker for
+            LSCC tumor-normal discrimination.
+          </li>
+
+          <li>
+            Characterized MYBL2 expression across High-CNV malignant epithelial
+            subclusters and investigated tumor heterogeneity, functional
+            transcriptional programs, and tumor microenvironment associations.
+          </li>
+
+          <li>
+            Applied inferCNV, pseudotime-based transcriptional-state ordering,
+            immune/stromal analyses, and exploratory CellChat ligand-receptor
+            inference to investigate the biological context of MYBL2.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </details>
+
+  </article>
+
+
+  <!-- Research Assistant -->
   <article class="experience-item">
 
     <div class="experience-header">
@@ -91,20 +143,18 @@ permalink: /experience/
       </h4>
 
       <span class="experience-date">
-        2019 – 2022
+        Sep 2023 – Feb 2024
       </span>
 
     </div>
 
-
     <p class="experience-organization">
-      Amirkabir University of Technology
+      Azad University, Tehran Medical Sciences Branch
     </p>
 
     <p class="experience-meta">
-      New Technologies Research Centre (NTRC) · Robotics &amp; Industrial Automation Lab
+      Tehran, Iran
     </p>
-
 
     <details class="expandable-details">
 
@@ -112,21 +162,25 @@ permalink: /experience/
         View details
       </summary>
 
-
       <div class="details-content">
+
+        <p>
+          <strong>Thesis:</strong>
+          Dysregulated Key Long Non-Coding RNAs TP53TG1, RFPL1S, DLEU1, and HCG4
+          Associated with Epithelial-Mesenchymal Transition in Castration-Resistant
+          Prostate Cancer
+        </p>
 
         <ul class="experience-details">
 
           <li>
-            Designed and developed intelligent ground autonomous mobile robot platforms and conducted research on improving robot navigation in complex environments.
+            Applied differential expression, WGCNA, and pathway enrichment analyses
+            to identify EMT-associated lncRNA modules.
           </li>
 
           <li>
-            Developed and optimized localization and path-planning algorithms and integrated sensors, actuators, and software components to support reliable autonomous operation across different tasks and environments.
-          </li>
-
-          <li>
-            Coordinated multidisciplinary research projects by managing timelines, resources, and team activities; mentored undergraduate researchers, provided technical guidance to student projects, and presented weekly progress reports to laboratory supervisors and research center leadership.
+            Prioritized TP53TG1, RFPL1S, DLEU1, and HCG4 as candidate lncRNAs
+            associated with prostate cancer progression.
           </li>
 
         </ul>
@@ -138,134 +192,6 @@ permalink: /experience/
   </article>
 
 </div>
-
-
-
-<!-- =========================
-     TEACHING EXPERIENCE
-========================= -->
-
-<div class="experience-section">
-
-  <h3 class="experience-section-title">
-    Teaching Experience
-  </h3>
-
-
-  <!-- =========================
-       BUSINESS PROCESS MANAGEMENT
-  ========================== -->
-
-  <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Graduate Teaching Assistant — Business Process Management
-      </h4>
-
-      <span class="experience-date">
-        2025 – Present
-      </span>
-
-    </div>
-
-
-    <p class="experience-organization">
-      Allameh Tabataba’i University
-    </p>
-
-    <p class="experience-meta">
-      Graduate Course · Instructor: Dr. MohammadTaghi Taghavifard
-    </p>
-
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View details
-      </summary>
-
-
-      <div class="details-content">
-
-        <ul class="experience-details">
-
-          <li>
-            Assisted graduate students with business process management concepts through review sessions, problem-solving exercises, and instruction in process modeling and automation tools, including Visual Paradigm, Microsoft Visio, Camunda, and Bizagi.
-          </li>
-
-          <li>
-            Supported workshops and course activities by teaching business process standards, frameworks, and modeling techniques and providing academic guidance on course assignments and projects.
-          </li>
-
-        </ul>
-
-      </div>
-
-    </details>
-
-  </article>
-
-
-
-  <!-- =========================
-       SYSTEM DYNAMICS
-  ========================== -->
-
-  <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Graduate Teaching Assistant — System Dynamics
-      </h4>
-
-      <span class="experience-date">
-        2024 – Present
-      </span>
-
-    </div>
-
-
-    <p class="experience-organization">
-      Allameh Tabataba’i University
-    </p>
-
-    <p class="experience-meta">
-      Graduate Course · Instructor: Dr. Mojtaba HajianHeidary
-    </p>
-
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View details
-      </summary>
-
-
-      <div class="details-content">
-
-        <ul class="experience-details">
-
-          <li>
-            Mentored graduate students in system dynamics concepts, Vensim modeling, and course projects through problem-solving sessions, software instruction, and individualized academic support.
-          </li>
-
-          <li>
-            Facilitated review sessions and taught selected system dynamics archetypes while evaluating student projects and providing feedback on modeling and simulation assignments.
-          </li>
-
-        </ul>
-
-      </div>
-
-    </details>
-
-  </article>
-
-</div>
-
 
 
 <!-- =========================
@@ -279,33 +205,28 @@ permalink: /experience/
   </h3>
 
 
-  <!-- =========================
-       SYNTECH
-  ========================== -->
-
+  <!-- Molecular Laboratory Technician -->
   <article class="experience-item">
 
     <div class="experience-header">
 
       <h4 class="experience-role">
-        Manufacturing &amp; Mechanical Design Engineer
+        Molecular Laboratory Technician
       </h4>
 
       <span class="experience-date">
-        2015 – 2018
+        Sep 2024 – Jan 2026
       </span>
 
     </div>
 
-
     <p class="experience-organization">
-      SYNTECH Technology and Innovation Center
+      Noor Molecular Laboratory
     </p>
 
     <p class="experience-meta">
-      Qazvin Azad University
+      Qazvin, Iran
     </p>
-
 
     <details class="expandable-details">
 
@@ -313,55 +234,95 @@ permalink: /experience/
         View details
       </summary>
 
-
       <div class="details-content">
+
+        <p>
+          Professional laboratory experience complementing computational cancer
+          research and academic training in cellular and molecular biology.
+        </p>
 
         <ul class="experience-details">
 
           <li>
-            Served as a member of the mechanical design team for <strong><a href="https://paraxmotors.com/" target="_blank" rel="noopener noreferrer">Yooz</a></strong>, the company’s first two-seat electric microcar product based on the <a href="https://www.renault-bm.com/cars/twizy/twizy.html" target="_blank" rel="noopener noreferrer">Renault-Twizy open-source platform</a>.
+            Hands-on experience with molecular biology workflows including DNA/RNA
+            extraction, cDNA synthesis, PCR, RT-PCR, RT-qPCR, agarose gel
+            electrophoresis, and gene-expression analysis.
           </li>
 
           <li>
-            Contributed to the development, evaluation, and improvement of methods and procedures for mechanical design and production processes.
-          </li>
-
-          <li>
-            Conducted regular audits and inspections to identify design and production problems, proposed improvement solutions, and trained and supervised new members of the production and design teams.
+            Experience with aseptic laboratory techniques and routine molecular
+            laboratory procedures.
           </li>
 
         </ul>
 
-        <div class="experience-gallery" aria-label="Yooz and Renault Twizy project images">
-
-          <figure class="experience-gallery-item">
-            <img
-              src="{{ '/assets/img/parax01.jpg' | relative_url }}"
-              alt="Yooz electric microcar"
-              loading="lazy"
-              decoding="async"
-            >
-          </figure>
-
-          <span
-            class="experience-gallery-divider"
-            aria-hidden="true">
-          </span>
-
-          <figure class="experience-gallery-item">
-            <img
-              src="{{ '/assets/img/parax02.jpg' | relative_url }}"
-              alt="Renault Twizy electric microcar"
-              loading="lazy"
-              decoding="async"
-            >
-          </figure>
-
-        </div>
-
       </div>
 
     </details>
+
+  </article>
+
+</div>
+
+
+<!-- =========================
+     SELECTED TRAINING
+========================= -->
+
+<div class="experience-section">
+
+  <h3 class="experience-section-title">
+    Selected Training & Certifications
+  </h3>
+
+
+  <article class="experience-item">
+
+    <div class="experience-header">
+
+      <h4 class="experience-role">
+        Project-Based Data Science Course
+      </h4>
+
+      <span class="experience-date">
+        Dec 2024
+      </span>
+
+    </div>
+
+  </article>
+
+
+  <article class="experience-item">
+
+    <div class="experience-header">
+
+      <h4 class="experience-role">
+        RNA-Seq Data Analysis: Mastering Advanced Techniques
+      </h4>
+
+      <span class="experience-date">
+        Sep 2024
+      </span>
+
+    </div>
+
+  </article>
+
+
+  <article class="experience-item">
+
+    <div class="experience-header">
+
+      <h4 class="experience-role">
+        2nd International and 11th National Iranian Conference on Bioinformatics
+      </h4>
+
+      <span class="experience-date">
+        Mar 2023
+      </span>
+
+    </div>
 
   </article>
 
