@@ -3,51 +3,24 @@
 # GitHub Pages / Jekyll Configuration
 # ============================================================
 
-# ------------------------------------------------------------
-# Basic site information
-# ------------------------------------------------------------
-
 title: "Tahmineh Mehrabi"
 
 description: "Prospective PhD Student"
 
 lang: "en-US"
 
-
-# ------------------------------------------------------------
-# GitHub Pages URL
-# Keep /Tahmineh while the repository name is Tahmineh.
-# If the repository is later renamed to tahminehmehrabii.github.io,
-# change baseurl to: ""
-# ------------------------------------------------------------
-
 url: "https://tahminehmehrabii.github.io"
 
 baseurl: "/Tahmineh"
 
-
-# ------------------------------------------------------------
-# Profile image
-# Picture.jpg is stored in assets/img/.
-# ------------------------------------------------------------
-
+# Primary profile image
 logo: "/assets/img/Picture.jpg"
-
-
-# ------------------------------------------------------------
-# Research interests
-# ------------------------------------------------------------
 
 research_interests:
   - "Spatial Multi-Omics & Spatial Biology"
   - "Prognostic Biomarkers & Precision Oncology"
   - "Tumor Microenvironment & Spatial Cell Interactions"
   - "Single-Cell Cancer Genomics & Tumor Heterogeneity"
-
-
-# ------------------------------------------------------------
-# Personal / academic links
-# ------------------------------------------------------------
 
 email: "TahminehMehrabii@gmail.com"
 
@@ -58,11 +31,6 @@ researchgate_url: "https://www.researchgate.net/profile/Tahmineh-Mehrabi"
 linkedin_url: "https://ir.linkedin.com/in/tahmineh-mehrabi"
 
 github_url: "https://github.com/tahminehmehrabii"
-
-
-# ------------------------------------------------------------
-# Jekyll / GitHub Pages settings
-# ------------------------------------------------------------
 
 theme: jekyll-theme-minimal
 
