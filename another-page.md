@@ -1,9 +1,21 @@
 ---
 layout: default
+permalink: /another-page/
+sitemap: false
 ---
 
-## Welcome to another page
+<meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
 
-_yay_
+<div class="about-text" markdown="1">
 
-[back](./)
+## Page Moved
+
+This page is no longer used.
+
+[Return to the homepage]({{ '/' | relative_url }})
+
+</div>
+
+<script>
+  window.location.replace("{{ '/' | relative_url }}");
+</script>
