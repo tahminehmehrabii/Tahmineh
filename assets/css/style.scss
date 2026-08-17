@@ -2774,38 +2774,41 @@ html.stagger-preload
 /* =========================
    PUBLICATION PAPER PREVIEW
 
-   The figure reserves the full page
-   height before the PNG finishes
-   loading. This prevents the smooth
-   details animation from measuring a
-   too-small content height on first open.
+   Certificates and paper previews should
+   open at the exact displayed image size.
+   The container must not reserve a fixed
+   portrait page ratio, because some
+   uploaded certificates are landscape.
 ========================= */
 
 .publication-paper-preview {
 
-  width:
-    100%;
+  display:
+    table;
 
-  aspect-ratio:
-    210 / 297;
+  width:
+    auto;
+
+  max-width:
+    100%;
 
   box-sizing:
     border-box;
 
   margin:
-    20px 0 0;
+    20px auto 0;
 
   padding:
     0;
 
   overflow:
-    hidden;
+    visible;
 
   border-radius:
-    8px;
+    0;
 
   background:
-    var(--surface);
+    transparent;
 
 }
 
@@ -2816,19 +2819,19 @@ html.stagger-preload
     block;
 
   width:
-    100%;
+    auto;
 
   max-width:
     100%;
 
   height:
-    100%;
+    auto;
 
   box-sizing:
     border-box;
 
   margin:
-    0;
+    0 auto;
 
   object-fit:
     contain;
@@ -4659,7 +4662,7 @@ screen and (max-width: 720px) {
       border-box;
 
     gap:
-      2px;
+      4px;
 
     padding:
       3px;
@@ -4679,16 +4682,25 @@ screen and (max-width: 720px) {
       0;
 
     padding:
-      7px 3px 9px;
+      7px 1px 9px;
 
     font-size:
-      12px;
+      10.5px;
+
+    font-weight:
+      600;
+
+    letter-spacing:
+      -0.01em;
 
     border-radius:
       999px;
 
     text-align:
       center;
+
+    white-space:
+      nowrap;
 
   }
 
