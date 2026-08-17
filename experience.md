@@ -295,13 +295,41 @@ permalink: /experience/
 
       <div class="details-content">
 
-        <figure class="publication-paper-preview">
+        <div
+          class="certificate-preview"
+          style="
+            display: block;
+            width: fit-content;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: auto;
+            margin: 18px auto 0;
+            padding: 0;
+            line-height: 0;
+            overflow: hidden;
+            background: transparent;
+            border: 0;
+            border-radius: 8px;
+          "
+        >
           <img
             src="{{ '/assets/img/Project-Based Data Science Course.jpg' | relative_url }}"
             alt="Project-Based Data Science Course certificate"
             loading="lazy"
+            style="
+              display: block;
+              width: auto;
+              max-width: 100%;
+              height: auto;
+              margin: 0;
+              padding: 0;
+              object-fit: contain;
+              border: 1px solid var(--border);
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
           >
-        </figure>
+        </div>
 </div>
 
     </details>
@@ -332,13 +360,41 @@ permalink: /experience/
 
       <div class="details-content">
 
-        <figure class="publication-paper-preview">
+        <div
+          class="certificate-preview"
+          style="
+            display: block;
+            width: fit-content;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: auto;
+            margin: 18px auto 0;
+            padding: 0;
+            line-height: 0;
+            overflow: hidden;
+            background: transparent;
+            border: 0;
+            border-radius: 8px;
+          "
+        >
           <img
             src="{{ '/assets/img/RNA-Seq Data Analysis Mastering Advanced Techniques.jpg' | relative_url }}"
             alt="RNA-Seq Data Analysis: Mastering Advanced Techniques certificate"
             loading="lazy"
+            style="
+              display: block;
+              width: auto;
+              max-width: 100%;
+              height: auto;
+              margin: 0;
+              padding: 0;
+              object-fit: contain;
+              border: 1px solid var(--border);
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
           >
-        </figure>
+        </div>
 </div>
 
     </details>
@@ -369,13 +425,41 @@ permalink: /experience/
 
       <div class="details-content">
 
-        <figure class="publication-paper-preview">
+        <div
+          class="certificate-preview"
+          style="
+            display: block;
+            width: fit-content;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: auto;
+            margin: 18px auto 0;
+            padding: 0;
+            line-height: 0;
+            overflow: hidden;
+            background: transparent;
+            border: 0;
+            border-radius: 8px;
+          "
+        >
           <img
             src="{{ '/assets/img/2nd International and 11th National Iranian Conference on Bioinformatics.png' | relative_url }}"
             alt="2nd International and 11th National Iranian Conference on Bioinformatics certificate"
             loading="lazy"
+            style="
+              display: block;
+              width: auto;
+              max-width: 100%;
+              height: auto;
+              margin: 0;
+              padding: 0;
+              object-fit: contain;
+              border: 1px solid var(--border);
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
           >
-        </figure>
+        </div>
 </div>
 
     </details>
