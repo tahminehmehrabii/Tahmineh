@@ -69,8 +69,27 @@
     </h1>
 
     <!-- Profile photo uploaded in repository root -->
-    <img src="{{ site.logo | relative_url }}"
-         alt="Tahmineh Mehrabi">
+    <img
+      id="profile-photo"
+      src="{{ '/assets/img/Picture.jpg' | relative_url }}"
+      alt="Tahmineh Mehrabi"
+      loading="eager"
+      decoding="async"
+      onerror="
+        if (!this.dataset.fallback) {
+          this.dataset.fallback = 'root';
+          this.src = '{{ '/Picture.jpg' | relative_url }}';
+        } else if (this.dataset.fallback === 'root') {
+          this.dataset.fallback = 'upper';
+          this.src = '{{ '/assets/img/Picture.JPG' | relative_url }}';
+        } else if (this.dataset.fallback === 'upper') {
+          this.dataset.fallback = 'root-upper';
+          this.src = '{{ '/Picture.JPG' | relative_url }}';
+        } else {
+          this.onerror = null;
+        }
+      "
+    >
 
     <p class="profile-description">
       <i class="fa-solid fa-graduation-cap profile-icon"
