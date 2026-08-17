@@ -190,30 +190,6 @@ li {
 }
 
 
-footer {
-
-  color:
-    var(--text-muted);
-
-}
-
-
-footer a {
-
-  color:
-    var(--accent);
-
-}
-
-
-footer a:hover {
-
-  color:
-    var(--accent-hover);
-
-}
-
-
 /* =========================
    DESKTOP WIDTH
 ========================= */
@@ -327,10 +303,6 @@ header img {
 
   margin-bottom:
     18px;
-
-  transform:
-    translateX(-1mm);
-
 }
 
 
@@ -393,13 +365,13 @@ header img {
 .research-focus {
 
   margin:
-    0 0 18px 0;
+    4px 0 20px 0;
 
   font-size:
     13px;
 
   line-height:
-    1.7;
+    1.55;
 
   color:
     var(--text-soft);
@@ -409,14 +381,51 @@ header img {
 
 .research-focus div {
 
-  margin:
-    0;
+  position:
+    relative;
 
-  padding:
-    0;
+  margin:
+    0 0 7px 0;
+
+  padding-left:
+    16px;
 
   color:
     var(--text-soft);
+
+}
+
+
+.research-focus div::before {
+
+  content:
+    "•";
+
+  position:
+    absolute;
+
+  left:
+    0;
+
+  top:
+    0;
+
+  color:
+    var(--accent);
+
+  font-size:
+    14px;
+
+  font-weight:
+    700;
+
+}
+
+
+.research-focus div:last-child {
+
+  margin-bottom:
+    0;
 
 }
 
@@ -506,15 +515,6 @@ a[title="ResearchGate"]:hover {
 
   color:
     #00CCBB;
-
-}
-
-
-.social-links
-a[title="ORCID"]:hover {
-
-  color:
-    #A6CE39;
 
 }
 
