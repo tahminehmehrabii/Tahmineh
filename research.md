@@ -293,24 +293,23 @@ permalink: /research/
 
 
 <!-- =========================
-     RESEARCH EXPERTISE
+     RESEARCH SKILLS
 ========================= -->
 
 <div class="research-section">
 
   <h3 class="research-section-title">
-    Research Expertise
+    Research Skills
   </h3>
 
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Computational Cancer Genomics & Transcriptomics
+      Computational Skills 
     </h4>
 
     <p class="research-project-summary">
-      Experience across bulk transcriptomics, single-cell analysis, spatial
-      transcriptomics, prognostic modeling, and tumor microenvironment analysis.
+
     </p>
 
     <details class="expandable-details">
@@ -321,26 +320,19 @@ permalink: /research/
       <div class="details-content">
 
         <h5 class="research-project-subheading">
-          Bulk Transcriptomics & Cancer Genomics
+          Computational Transcriptomics and Cancer Genomics: Bulk RNA-seq processing; differential expression analysis; WGCNA/co-expression network analysis; pathway enrichment; biomarker prioritization; prognostic signature development; survival analysis; external validation; tumor microenvironment characterization.
         </h5>
 
         <p>
-          Bulk RNA-seq processing, differential expression analysis,
-          WGCNA/co-expression network analysis, pathway enrichment, biomarker
-          prioritization, prognostic signature development, survival analysis,
-          external validation, and tumor microenvironment characterization.
+  
         </p>
 
         <h5 class="research-project-subheading">
-          Single-Cell & Spatial Transcriptomics
+          Single-Cell and Spatial Transcriptomics: quality control and normalization; integration and batch correction; dimensionality reduction and clustering; cell-type annotation; malignant-cell subclustering; CNV inference; pseudotime analysis; cell–cell communication; Visium processing; H&E mapping; spatial clustering; tissue-region classification; pseudobulk analysis.
         </h5>
 
         <p>
-          Quality control and normalization, integration and batch correction,
-          dimensionality reduction, clustering, cell-type annotation,
-          malignant-cell subclustering, CNV inference, pseudotime analysis,
-          cell-cell communication, Visium processing, H&amp;E mapping,
-          spatial clustering, tissue-region classification, and pseudobulk analysis.
+
         </p>
 
         <h5 class="research-project-subheading">
