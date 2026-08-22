@@ -29,8 +29,7 @@ permalink: /experience/
     </div>
 
     <p class="experience-organization">
-      Integrated Bulk, Single-Cell, and Spatial Transcriptomic Analysis Identifies an
-      NT5E-Associated Glycolytic and Immunoregulatory Program in Lung Adenocarcinoma
+      Integrated single-cell and bulk RNA-seq analysis identifies MYBL2-associated malignant heterogeneity and cell–cell communication in laryngeal squamous cell carcinoma
     </p>
 
     <details class="expandable-details">
