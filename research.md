@@ -76,7 +76,7 @@ permalink: /research/
   <article class="research-project">
 
     <h4 class="research-project-title">
-      MYBL2-Associated Malignant Heterogeneity in Laryngeal Squamous Cell Carcinoma
+     Integrated single-cell and bulk RNA-seq analysis identifies MYBL2-associated malignant heterogeneity and cell–cell communication in laryngeal squamous cell carcinoma
     </h4>
 
     <p class="research-project-meta">
@@ -84,9 +84,7 @@ permalink: /research/
     </p>
 
     <p class="research-project-summary">
-      Integrated bulk and single-cell transcriptomic analysis examining MYBL2,
-      malignant epithelial heterogeneity, tumor microenvironment associations,
-      and exploratory cell-cell communication in laryngeal squamous cell carcinoma.
+
     </p>
 
     <details class="expandable-details">
