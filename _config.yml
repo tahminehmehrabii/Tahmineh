@@ -39,11 +39,10 @@ logo: "/Picture.jpg"
 # ------------------------------------------------------------
 
 research_interests:
-  - "Spatial Multi-Omics & Spatial Biology"
-  - "Prognostic Biomarkers & Precision Oncology"
-  - "Tumor Microenvironment & Spatial Cell Interactions"
-  - "Single-Cell Cancer Genomics & Tumor Heterogeneity"
-
+  - "Bulk, Single-Cell, and Spatial Transcriptomics"
+  - "Cancer Bioinformatics and Computational Oncology"
+  - "Tumor Heterogeneity and Tumor Microenvironment"
+  - "Cancer Biomarker Discovery and Molecular Validation"
 
 # ------------------------------------------------------------
 # Personal / academic links
