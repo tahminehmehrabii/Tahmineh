@@ -320,7 +320,7 @@ permalink: /research/
       <div class="details-content">
 
         <h5 class="research-project-subheading">
-          Computational Transcriptomics and Cancer Genomics:
+          Computational Transcriptomics and Cancer Genomics
         </h5>
 
         <p>
@@ -328,7 +328,7 @@ permalink: /research/
         </p>
 
         <h5 class="research-project-subheading">
-          Single-Cell and Spatial Transcriptomics: 
+          Single-Cell and Spatial Transcriptomics
         </h5>
 
         <p>
@@ -340,9 +340,7 @@ permalink: /research/
         </h5>
 
         <p>
-          PCA, hierarchical clustering, Cox and LASSO-Cox regression,
-          Kaplan-Meier analysis, time-dependent ROC/AUC, Random Forest,
-          SVM classification, and cross-validation.
+          PCA; hierarchical clustering; Cox and LASSO–Cox regression; Kaplan–Meier analysis; time-dependent ROC/AUC; Random Forest; SVM classification; cross-validation.
         </p>
 
         <h5 class="research-project-subheading">
@@ -350,9 +348,7 @@ permalink: /research/
         </h5>
 
         <p>
-          R, Python, Linux, Galaxy, DESeq2, Seurat, Scanpy, Harmony, WGCNA,
-          CellChat, Monocle, maftools, ssGSEA, ESTIMATE, and common RNA-seq
-          quality-control and alignment tools.
+          R; Galaxy; DESeq2; Seurat; Harmony; WGCNA; CellChat; Monocle; maftools; ssGSEA; ESTIMATE; common RNA-seq quality-control and alignment tools.
         </p>
 
       </div>
@@ -364,12 +360,11 @@ permalink: /research/
   <article class="research-project">
 
     <h4 class="research-project-title">
-      Experimental Research Skills
+      Experimental Skills
     </h4>
 
     <p class="research-project-summary">
-      Hands-on molecular biology and cancer cell culture experience complementing
-      computational research in cancer genomics.
+
     </p>
 
     <details class="expandable-details">
@@ -380,21 +375,28 @@ permalink: /research/
       <div class="details-content">
 
         <h5 class="research-project-subheading">
-          Molecular Biology
+          Molecular Biology and Molecular Diagnostics
         </h5>
 
         <p>
-          DNA/RNA extraction, cDNA synthesis, primer design, PCR, RT-PCR,
-          RT-qPCR, agarose gel electrophoresis, and gene-expression analysis.
+          DNA/RNA extraction and purification; nucleic acid quantification and quality assessment; cDNA synthesis; primer design; conventional PCR, RT-PCR, RT-qPCR, and multiplex PCR; agarose gel electrophoresis; gene-expression analysis; and interpretation of molecular diagnostic results.
         </p>
 
         <h5 class="research-project-subheading">
-          Cancer Cell Culture
+          Immunology and Serological Assays
         </h5>
 
         <p>
-          Cancer cell culture, aseptic techniques, cell passaging and routine
-          maintenance, cell counting, cryopreservation, and contamination monitoring.
+          Enzyme-linked immunosorbent assay (ELISA); antigen–antibody detection; assessment of inflammatory biomarkers; and interpretation of immunological and serological findings.
+
+        </p>
+
+        <h5 class="research-project-subheading">
+          Cancer Cell Culture and Cellular Assays
+        </h5>
+
+        <p>
+          Cancer cell culture; aseptic techniques; cell passaging and routine maintenance; cell counting and viability assessment; cryopreservation; contamination monitoring; and cell proliferation and cytotoxicity assays, including MTT-based assays.
         </p>
 
         <h5 class="research-project-subheading">
@@ -402,11 +404,8 @@ permalink: /research/
         </h5>
 
         <p>
-          Handling and basic care of laboratory animals, assistance with
-          experimental procedures, sample collection, and adherence to laboratory
-          animal welfare and biosafety protocols.
+        Handling and basic care of laboratory animals; assistance with experimental procedures; biological sample collection and processing; and compliance with laboratory animal welfare, ethical guidelines, and biosafety protocols.
         </p>
-
       </div>
     </details>
 
