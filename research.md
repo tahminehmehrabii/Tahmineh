@@ -320,19 +320,19 @@ permalink: /research/
       <div class="details-content">
 
         <h5 class="research-project-subheading">
-          Computational Transcriptomics and Cancer Genomics: Bulk RNA-seq processing; differential expression analysis; WGCNA/co-expression network analysis; pathway enrichment; biomarker prioritization; prognostic signature development; survival analysis; external validation; tumor microenvironment characterization.
+          Computational Transcriptomics and Cancer Genomics:
         </h5>
 
         <p>
-  
+            Bulk RNA-seq processing; differential expression analysis; WGCNA/co-expression network analysis; pathway enrichment; biomarker prioritization; prognostic signature development; survival analysis; external validation; tumor microenvironment characterization.
         </p>
 
         <h5 class="research-project-subheading">
-          Single-Cell and Spatial Transcriptomics: quality control and normalization; integration and batch correction; dimensionality reduction and clustering; cell-type annotation; malignant-cell subclustering; CNV inference; pseudotime analysis; cell–cell communication; Visium processing; H&E mapping; spatial clustering; tissue-region classification; pseudobulk analysis.
+          Single-Cell and Spatial Transcriptomics: 
         </h5>
 
         <p>
-
+          quality control and normalization; integration and batch correction; dimensionality reduction and clustering; cell-type annotation; malignant-cell subclustering; CNV inference; pseudotime analysis; cell–cell communication; Visium processing; H&E mapping; spatial clustering; tissue-region classification; pseudobulk analysis.
         </p>
 
         <h5 class="research-project-subheading">
