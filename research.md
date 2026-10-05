@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /research/
+---
+
 <div class="experience-section">
 
   <h3 class="experience-section-title">
@@ -103,7 +108,7 @@
 
     <div class="experience-header">
       <h4 class="experience-role">
-        Fusobacterium nucleatum and Intestinal Inflammation
+        <em>Fusobacterium nucleatum</em> and Intestinal Inflammation
       </h4>
       <span class="experience-date">
         Feb 2017 – Mar 2018
@@ -121,9 +126,9 @@
 
     <ul class="experience-details">
       <li>
-        Cultured F. nucleatum anaerobically and performed microbial
-        DNA extraction and species-specific PCR on fecal samples
-        from experimental mice.
+        Cultured <em>F. nucleatum</em> anaerobically and performed
+        microbial DNA extraction and species-specific PCR on
+        fecal samples from experimental mice.
       </li>
       <li>
         Measured fecal IL-6, TNF-α, and IL-1β using sandwich ELISA
