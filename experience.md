@@ -3,466 +3,117 @@ layout: default
 permalink: /experience/
 ---
 
-<!-- =========================
-     RESEARCH EXPERIENCE
-========================= -->
-
 <div class="experience-section">
 
   <h3 class="experience-section-title">
-    Research Experience
+    Research and Technical Skills
   </h3>
 
-
   <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Research Collaborator
-      </h4>
-
-      <span class="experience-date">
-        Jun 2026 – Present
-      </span>
-
-    </div>
-
-    <p class="experience-organization">
-      Integrated single-cell and bulk RNA-seq analysis identifies MYBL2-associated malignant heterogeneity and cell–cell communication in laryngeal squamous cell carcinoma
+    <h4 class="experience-role">Microbiology</h4>
+    <p class="experience-meta">Master’s Research Experience</p>
+    <p>
+      Anaerobic culture of <em>Fusobacterium nucleatum</em>;
+      preparation of standardized bacterial suspensions;
+      fecal sample collection at defined time points;
+      microbial DNA extraction; species-specific PCR with
+      appropriate controls; agarose gel electrophoresis;
+      sandwich ELISA for fecal IL-6, TNF-α, and IL-1β;
+      comparison of inflammatory responses across experimental groups.
     </p>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View details
-      </summary>
-
-      <div class="details-content">
-
-        <ul class="experience-details">
-
-          <li>
-            Integrated bulk RNA-seq, single-cell RNA-seq, and spatial transcriptomic
-            data using differential expression, Cox/LASSO-Cox modeling, survival
-            analysis, ssGSEA, immune-infiltration analysis, Scanpy, Seurat, and
-            spatial neighborhood analyses.
-          </li>
-
-          <li>
-            Developed and externally validated a nine-gene glycolysis-related
-            prognostic model and evaluated its clinicopathological and survival
-            associations.
-          </li>
-
-          <li>
-            Characterized malignant and non-malignant cellular populations at
-            single-cell resolution.
-          </li>
-
-          <li>
-            Investigated NT5E-associated spatial niches across normal, precursor,
-            and invasive lung adenocarcinoma stages.
-          </li>
-
-        </ul>
-
-      </div>
-
-    </details>
-
   </article>
 
-
   <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Research Collaborator
-      </h4>
-
-      <span class="experience-date">
-        Apr 2026 – Jun 2026
-      </span>
-
-    </div>
-
-    <p class="experience-organization">
-      Integrated Bulk and Single-Cell Transcriptomic Analysis Identifies
-      MYBL2-Associated Malignant Heterogeneity in Laryngeal Squamous Cell Carcinoma
+    <h4 class="experience-role">Laboratory Mouse Handling</h4>
+    <p class="experience-meta">Master’s Research Experience</p>
+    <p>
+      Handling and care of experimental mice;
+      fecal sample collection at defined time points.
     </p>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View details
-      </summary>
-
-      <div class="details-content">
-
-        <ul class="experience-details">
-
-          <li>
-            Integrated bulk RNA-seq and single-cell RNA-seq data with machine-learning
-            approaches to prioritize MYBL2 as a candidate transcriptomic marker for
-            LSCC tumor-normal discrimination.
-          </li>
-
-          <li>
-            Characterized MYBL2 expression across High-CNV malignant epithelial
-            subclusters and investigated tumor heterogeneity, functional
-            transcriptional programs, and tumor microenvironment associations.
-          </li>
-
-          <li>
-            Applied inferCNV, pseudotime-based transcriptional-state ordering,
-            immune/stromal analyses, and exploratory CellChat ligand-receptor
-            inference to investigate the biological context of MYBL2.
-          </li>
-
-        </ul>
-
-      </div>
-
-    </details>
-
   </article>
 
-
   <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Research Assistant
-      </h4>
-
-      <span class="experience-date">
-        Sep 2023 – Feb 2024
-      </span>
-
-    </div>
-
-    <p class="experience-organization">
-      Azad University, Tehran Medical Sciences Branch
+    <h4 class="experience-role">Molecular Biology</h4>
+    <p class="experience-meta">Professional Laboratory Experience</p>
+    <p>
+      DNA/RNA extraction; cDNA synthesis; PCR and RT-qPCR;
+      primer design; agarose gel electrophoresis;
+      assay quality control and result analysis.
+      Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
     </p>
-
-    <p class="experience-meta">
-      Tehran, Iran
-    </p>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View details
-      </summary>
-
-      <div class="details-content">
-
-        <p>
-          <strong>Thesis:</strong>
-          Dysregulated Key Long Non-Coding RNAs TP53TG1, RFPL1S, DLEU1, and HCG4
-          Associated with Epithelial-Mesenchymal Transition in Castration-Resistant
-          Prostate Cancer
-        </p>
-
-        <ul class="experience-details">
-
-          <li>
-            Applied differential expression, WGCNA, and pathway enrichment analyses
-            to identify EMT-associated lncRNA modules.
-          </li>
-
-          <li>
-            Prioritized TP53TG1, RFPL1S, DLEU1, and HCG4 as candidate lncRNAs
-            associated with prostate cancer progression.
-          </li>
-
-        </ul>
-
-      </div>
-
-    </details>
-
   </article>
 
-</div>
-
-
-<!-- =========================
-     PROFESSIONAL EXPERIENCE
-========================= -->
-
-<div class="experience-section">
-
-  <h3 class="experience-section-title">
-    Professional Experience
-  </h3>
-
-
   <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Molecular Laboratory Technician
-      </h4>
-
-      <span class="experience-date">
-        Sep 2024 – Jan 2026
-      </span>
-
-    </div>
-
-    <p class="experience-organization">
-      Noor Molecular Laboratory
+    <h4 class="experience-role">Mammalian Cell Culture</h4>
+    <p class="experience-meta">Hands-on Internship Experience</p>
+    <p>
+      Aseptic handling; cell seeding and passaging;
+      culture maintenance; cell counting;
+      cryopreservation and thawing.
     </p>
+  </article>
 
-    <p class="experience-meta">
-      Qazvin, Iran
+  <article class="experience-item">
+    <h4 class="experience-role">Immunohistochemistry</h4>
+    <p class="experience-meta">Hands-on Internship Experience</p>
+    <p>
+      Tissue processing; deparaffinization; antigen retrieval;
+      antibody staining; chromogenic detection;
+      microscopy and IHC image analysis.
     </p>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View details
-      </summary>
-
-      <div class="details-content">
-
-        <p>
-          Professional laboratory experience complementing computational cancer
-          research and academic training in cellular and molecular biology.
-        </p>
-
-        <ul class="experience-details">
-
-          <li>
-            Hands-on experience with molecular biology workflows including DNA/RNA
-            extraction, cDNA synthesis, PCR, RT-PCR, RT-qPCR, agarose gel
-            electrophoresis, and gene-expression analysis.
-          </li>
-
-          <li>
-            Experience with aseptic laboratory techniques and routine molecular
-            laboratory procedures.
-          </li>
-
-        </ul>
-
-      </div>
-
-    </details>
-
   </article>
 
-</div>
-
-
-<!-- =========================
-     SELECTED TRAINING & CERTIFICATIONS
-========================= -->
-
-<div class="experience-section">
-
-  <h3 class="experience-section-title">
-    Selected Training & Certifications
-  </h3>
-
-
-  <!-- Certificate 1 -->
   <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        Project-Based Data Science Course
-      </h4>
-
-      <span class="experience-date">
-        Dec 2024
-      </span>
-
-    </div>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View certificate
-      </summary>
-
-      <div class="details-content">
-
-        <div
-          class="certificate-preview"
-          style="
-            display: block;
-            width: fit-content;
-            max-width: 100%;
-            height: auto;
-            aspect-ratio: auto;
-            margin: 18px auto 0;
-            padding: 0;
-            line-height: 0;
-            overflow: hidden;
-            background: transparent;
-            border: 0;
-            border-radius: 8px;
-          "
-        >
-          <img
-            src="{{ '/assets/img/Project-Based Data Science Course.jpg' | relative_url }}"
-            alt="Project-Based Data Science Course certificate"
-            loading="lazy"
-            style="
-              display: block;
-              width: auto;
-              max-width: 100%;
-              height: auto;
-              margin: 0;
-              padding: 0;
-              object-fit: contain;
-              border: 1px solid var(--border);
-              border-radius: 8px;
-              box-sizing: border-box;
-            "
-          >
-        </div>
-</div>
-
-    </details>
-
+    <h4 class="experience-role">
+      Programming and Reproducible Analysis
+    </h4>
+    <p class="experience-meta">Research Experience</p>
+    <p>
+      R; Python for biological data processing;
+      Linux/Ubuntu command line;
+      reproducible computational pipelines.
+    </p>
   </article>
 
-
-  <!-- Certificate 2 -->
   <article class="experience-item">
-
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        RNA-Seq Data Analysis: Mastering Advanced Techniques
-      </h4>
-
-      <span class="experience-date">
-        Sep 2024
-      </span>
-
-    </div>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View certificate
-      </summary>
-
-      <div class="details-content">
-
-        <div
-          class="certificate-preview"
-          style="
-            display: block;
-            width: fit-content;
-            max-width: 100%;
-            height: auto;
-            aspect-ratio: auto;
-            margin: 18px auto 0;
-            padding: 0;
-            line-height: 0;
-            overflow: hidden;
-            background: transparent;
-            border: 0;
-            border-radius: 8px;
-          "
-        >
-          <img
-            src="{{ '/assets/img/RNA-Seq Data Analysis Mastering Advanced Techniques.jpg' | relative_url }}"
-            alt="RNA-Seq Data Analysis: Mastering Advanced Techniques certificate"
-            loading="lazy"
-            style="
-              display: block;
-              width: auto;
-              max-width: 100%;
-              height: auto;
-              margin: 0;
-              padding: 0;
-              object-fit: contain;
-              border: 1px solid var(--border);
-              border-radius: 8px;
-              box-sizing: border-box;
-            "
-          >
-        </div>
-</div>
-
-    </details>
-
+    <h4 class="experience-role">
+      Bulk RNA-seq and Microarray Analysis
+    </h4>
+    <p class="experience-meta">Research Experience</p>
+    <p>
+      FastQC; Trimmomatic; HISAT2; gene-level quantification;
+      probe annotation; normalization; differential expression
+      analysis; batch correction; WGCNA; GO/KEGG enrichment;
+      transcriptomic integration and visualization.
+    </p>
   </article>
 
-
-  <!-- Certificate 3 -->
   <article class="experience-item">
+    <h4 class="experience-role">
+      Single-cell and Spatial Transcriptomics
+    </h4>
+    <p class="experience-meta">Research Experience</p>
+    <p>
+      Seurat-based QC, normalization, variable feature selection,
+      PCA/UMAP, clustering, cell annotation, marker identification,
+      multi-sample integration, and cell composition analysis;
+      inferCNV; Monocle 2; CellChat; RCTD deconvolution;
+      spatial gene expression, bacteria–host co-localization,
+      and neighborhood analysis.
+    </p>
+  </article>
 
-    <div class="experience-header">
-
-      <h4 class="experience-role">
-        2nd International and 11th National Iranian Conference on Bioinformatics
-      </h4>
-
-      <span class="experience-date">
-        Mar 2023
-      </span>
-
-    </div>
-
-    <details class="expandable-details">
-
-      <summary class="details-toggle">
-        View certificate
-      </summary>
-
-      <div class="details-content">
-
-        <div
-          class="certificate-preview"
-          style="
-            display: block;
-            width: fit-content;
-            max-width: 100%;
-            height: auto;
-            aspect-ratio: auto;
-            margin: 18px auto 0;
-            padding: 0;
-            line-height: 0;
-            overflow: hidden;
-            background: transparent;
-            border: 0;
-            border-radius: 8px;
-          "
-        >
-          <img
-            src="{{ '/assets/img/2nd International and 11th National Iranian Conference on Bioinformatics.png' | relative_url }}"
-            alt="2nd International and 11th National Iranian Conference on Bioinformatics certificate"
-            loading="lazy"
-            style="
-              display: block;
-              width: auto;
-              max-width: 100%;
-              height: auto;
-              margin: 0;
-              padding: 0;
-              object-fit: contain;
-              border: 1px solid var(--border);
-              border-radius: 8px;
-              box-sizing: border-box;
-            "
-          >
-        </div>
-</div>
-
-    </details>
-
+  <article class="experience-item">
+    <h4 class="experience-role">
+      Machine Learning and Biomarker Evaluation
+    </h4>
+    <p class="experience-meta">Research Experience</p>
+    <p>
+      LASSO and Elastic Net; Random Forest; SVM; XGBoost;
+      pseudobulk classification;
+      leave-one-patient-out cross-validation;
+      ROC/AUC evaluation; external validation.
+    </p>
   </article>
 
 </div>
