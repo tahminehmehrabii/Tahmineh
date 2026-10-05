@@ -85,7 +85,7 @@ permalink: /research/
     </p>
 
     <p class="experience-meta">
-      Islamic Azad University, Tehran Medical Sciences
+      Azad University, Tehran Medical Sciences
       · Supervisor: Masoumeh Heshmati, Ph.D.
     </p>
 
@@ -120,7 +120,7 @@ permalink: /research/
     </p>
 
     <p class="experience-meta">
-      Islamic Azad University, Karaj Branch
+      Azad University, Karaj Branch
       · Supervisor: Fatemeh Abedini, Ph.D.
     </p>
 
