@@ -5,8 +5,10 @@ permalink: /
 
 <div class="about-text" markdown="1">
 
-Molecular biologist and cancer bioinformatics researcher with experience in bulk, single-cell, and spatial transcriptomics, cancer biomarker discovery, and tumor microenvironment analysis. Skilled in integrating computational approaches, machine learning, and molecular laboratory techniques to investigate tumor heterogeneity, disease progression, and prognostic signatures. Research interests include computational oncology, tumor immunology, and translational cancer research.
+I am a molecular biologist and cancer bioinformatics researcher with a background in microbiology and molecular laboratory work. I integrate bulk, single-cell, and spatial transcriptomics with machine learning to study tumor heterogeneity, immune interactions, and cancer-associated microbial niches. My research interests include the tumor microenvironment, cancer immunology, cancer microbiome, and multi-omics integration.
 
-I hold an M.Sc. in Cellular and Molecular Biology from Azad University, Tehran Medical Sciences Branch, with a GPA of 3.82/4.00.
+## Research Interests
+
+Single-cell and spatial transcriptomics; tumor microenvironment; cancer immunology; cancer microbiome; multi-omics integration.
 
 </div>
