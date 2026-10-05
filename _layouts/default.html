@@ -8,21 +8,14 @@
   <title>{{ site.title | default: 'Tahmineh Mehrabi' }}</title>
   {% seo title=false %}
 
-  <!-- =========================
-       INITIAL THEME
-  ========================== -->
   <script>
     (function () {
       document.documentElement.classList.add("stagger-preload");
 
-      const storageKey = "tahmineh-theme";
       let savedTheme = null;
-
       try {
-        savedTheme = localStorage.getItem(storageKey);
-      } catch (error) {
-        savedTheme = null;
-      }
+        savedTheme = localStorage.getItem("tahmineh-theme");
+      } catch (error) {}
 
       const systemPrefersDark =
         window.matchMedia &&
@@ -38,11 +31,9 @@
     })();
   </script>
 
-  <!-- Main stylesheet -->
   <link rel="stylesheet"
         href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-  <!-- Font Awesome -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
@@ -57,9 +48,6 @@
 
 <div class="wrapper">
 
-  <!-- =========================
-       PROFILE / SIDEBAR
-  ========================== -->
   <header>
 
     <h1>
@@ -68,7 +56,6 @@
       </a>
     </h1>
 
-    <!-- Profile photo uploaded in repository root -->
     <img
       id="profile-photo"
       src="{{ '/assets/img/Picture.jpg' | relative_url }}"
@@ -105,62 +92,41 @@
     </div>
     {% endif %}
 
-    <!-- =========================
-         SOCIAL LINKS
-    ========================== -->
     <div class="social-links">
 
       <a href="mailto:TahminehMehrabii@gmail.com"
-         aria-label="Email"
-         title="Email">
-        <i class="fa-solid fa-envelope"
-           aria-hidden="true"></i>
+         aria-label="Email" title="Email">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
       </a>
 
       <a href="https://scholar.google.com/citations?hl=en&user=99F_UqcAAAAJ"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="Google Scholar"
-         title="Google Scholar">
-        <i class="fa-brands fa-google-scholar"
-           aria-hidden="true"></i>
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Google Scholar" title="Google Scholar">
+        <i class="fa-brands fa-google-scholar" aria-hidden="true"></i>
       </a>
 
       <a href="https://www.researchgate.net/profile/Tahmineh-Mehrabi"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="ResearchGate"
-         title="ResearchGate">
-        <i class="fa-brands fa-researchgate"
-           aria-hidden="true"></i>
+         target="_blank" rel="noopener noreferrer"
+         aria-label="ResearchGate" title="ResearchGate">
+        <i class="fa-brands fa-researchgate" aria-hidden="true"></i>
       </a>
 
       <a href="https://ir.linkedin.com/in/tahmineh-mehrabi"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="LinkedIn"
-         title="LinkedIn">
-        <i class="fa-brands fa-linkedin"
-           aria-hidden="true"></i>
+         target="_blank" rel="noopener noreferrer"
+         aria-label="LinkedIn" title="LinkedIn">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
       </a>
 
       <a href="https://github.com/tahminehmehrabii"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="GitHub"
-         title="GitHub">
-        <i class="fa-brands fa-github"
-           aria-hidden="true"></i>
+         target="_blank" rel="noopener noreferrer"
+         aria-label="GitHub" title="GitHub">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
       </a>
 
     </div>
 
   </header>
 
-
-  <!-- =========================
-       MAIN CONTENT
-  ========================== -->
   <section class="main-content">
 
     <div class="content-toolbar">
@@ -169,67 +135,54 @@
               type="button"
               aria-label="Switch theme"
               title="Switch theme">
-        <i class="fa-solid fa-moon"
-           aria-hidden="true"></i>
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
       </button>
     </div>
 
-
-    <!-- =========================
-         PRIMARY NAVIGATION
-    ========================== -->
-    <nav class="site-nav"
-         aria-label="Primary navigation">
+    <nav class="site-nav" aria-label="Primary navigation">
 
       <div class="nav-links">
 
-        <span class="nav-indicator"
-              aria-hidden="true"></span>
+        <span class="nav-indicator" aria-hidden="true"></span>
 
         <a href="{{ '/' | relative_url }}"
            {% if page.url == '/' %}
-           class="active"
-           aria-current="page"
+           class="active" aria-current="page"
            {% endif %}>
           About
         </a>
 
         <a href="{{ '/education/' | relative_url }}"
            {% if page.url == '/education/' %}
-           class="active"
-           aria-current="page"
+           class="active" aria-current="page"
            {% endif %}>
           Education
         </a>
 
         <a href="{{ '/research/' | relative_url }}"
            {% if page.url == '/research/' %}
-           class="active"
-           aria-current="page"
+           class="active" aria-current="page"
            {% endif %}>
           Research
         </a>
 
         <a href="{{ '/publications/' | relative_url }}"
            {% if page.url == '/publications/' %}
-           class="active"
-           aria-current="page"
+           class="active" aria-current="page"
            {% endif %}>
           Publication
         </a>
 
         <a href="{{ '/experience/' | relative_url }}"
            {% if page.url == '/experience/' %}
-           class="active"
-           aria-current="page"
+           class="active" aria-current="page"
            {% endif %}>
-          Experience
+          Skills
         </a>
 
       </div>
 
     </nav>
-
 
     <div class="page-content">
       {{ content }}
@@ -237,16 +190,11 @@
 
   </section>
 
-
 </div>
-
 
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-
-<!-- =========================
-     CASCADING PAGE REVEAL
-========================= -->
+<!-- Page reveal -->
 <script>
   (function () {
     const root = document.documentElement;
@@ -292,22 +240,16 @@
   })();
 </script>
 
-
-<!-- =========================
-     DARK / LIGHT MODE
-========================= -->
+<!-- Dark / light mode -->
 <script>
   (function () {
     const storageKey = "tahmineh-theme";
     const root = document.documentElement;
     const toggle = document.getElementById("theme-toggle");
 
-    if (!toggle) {
-      return;
-    }
+    if (!toggle) return;
 
     const icon = toggle.querySelector("i");
-
     const systemThemeQuery =
       window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -324,45 +266,29 @@
     }
 
     function updateToggle(theme) {
-      if (!icon) {
-        return;
-      }
+      if (!icon) return;
 
-      if (theme === "dark") {
-        icon.className = "fa-solid fa-sun";
-        toggle.setAttribute(
-          "aria-label",
-          "Switch to light mode"
-        );
-        toggle.setAttribute(
-          "title",
-          "Switch to light mode"
-        );
-      } else {
-        icon.className = "fa-solid fa-moon";
-        toggle.setAttribute(
-          "aria-label",
-          "Switch to dark mode"
-        );
-        toggle.setAttribute(
-          "title",
-          "Switch to dark mode"
-        );
-      }
+      icon.className =
+        theme === "dark" ? "fa-solid fa-sun" : "fa-solid fa-moon";
+
+      const label =
+        theme === "dark"
+          ? "Switch to light mode"
+          : "Switch to dark mode";
+
+      toggle.setAttribute("aria-label", label);
+      toggle.setAttribute("title", label);
     }
 
     function applyTheme(theme, savePreference) {
       root.setAttribute("data-theme", theme);
       root.style.colorScheme = theme;
-
       updateToggle(theme);
 
       if (savePreference) {
         try {
           localStorage.setItem(storageKey, theme);
-        } catch (error) {
-          /* Ignore storage errors */
-        }
+        } catch (error) {}
       }
     }
 
@@ -374,1026 +300,468 @@
     applyTheme(currentTheme, false);
 
     toggle.addEventListener("click", function () {
-      const activeTheme =
-        root.getAttribute("data-theme") || "light";
-
-      const nextTheme =
-        activeTheme === "dark"
-          ? "light"
-          : "dark";
-
-      applyTheme(nextTheme, true);
+      const activeTheme = root.getAttribute("data-theme") || "light";
+      applyTheme(activeTheme === "dark" ? "light" : "dark", true);
     });
 
     function handleSystemThemeChange() {
       const savedTheme = getSavedTheme();
-
-      if (
-        savedTheme !== "dark" &&
-        savedTheme !== "light"
-      ) {
+      if (savedTheme !== "dark" && savedTheme !== "light") {
         applyTheme(getSystemTheme(), false);
       }
     }
 
     if (systemThemeQuery.addEventListener) {
-      systemThemeQuery.addEventListener(
-        "change",
-        handleSystemThemeChange
-      );
+      systemThemeQuery.addEventListener("change", handleSystemThemeChange);
     } else if (systemThemeQuery.addListener) {
-      systemThemeQuery.addListener(
-        handleSystemThemeChange
-      );
+      systemThemeQuery.addListener(handleSystemThemeChange);
     }
   })();
 </script>
 
-
-<!-- =========================
-     SLIDING NAVIGATION PILL
-========================= -->
+<!-- Sliding navigation -->
 <script>
   (function () {
-    const nav =
-      document.querySelector(".nav-links");
+    const nav = document.querySelector(".nav-links");
+    if (!nav) return;
 
-    if (!nav) {
-      return;
-    }
+    const indicator = nav.querySelector(".nav-indicator");
+    const links = Array.from(nav.querySelectorAll("a"));
 
-    const indicator =
-      nav.querySelector(".nav-indicator");
-
-    const links =
-      Array.from(nav.querySelectorAll("a"));
-
-    if (!indicator || !links.length) {
-      return;
-    }
+    if (!indicator || !links.length) return;
 
     const reduceMotion =
-      window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      );
+      window.matchMedia("(prefers-reduced-motion: reduce)");
 
-    let activeLink =
-      nav.querySelector("a.active");
-
+    let activeLink = nav.querySelector("a.active");
     let navigationPending = false;
 
     function getSlideDuration() {
-      const value =
-        getComputedStyle(nav)
-          .getPropertyValue("--nav-slide-duration")
-          .trim();
+      const value = getComputedStyle(nav)
+        .getPropertyValue("--nav-slide-duration").trim();
 
-      if (!value) {
-        return 560;
-      }
-
-      if (value.endsWith("ms")) {
-        return parseFloat(value);
-      }
-
-      if (value.endsWith("s")) {
-        return parseFloat(value) * 1000;
-      }
-
+      if (!value) return 560;
+      if (value.endsWith("ms")) return parseFloat(value);
+      if (value.endsWith("s")) return parseFloat(value) * 1000;
       return 560;
     }
 
     function moveIndicatorTo(link) {
-      if (!link) {
-        return;
-      }
+      if (!link) return;
 
-      const navRect =
-        nav.getBoundingClientRect();
+      const navRect = nav.getBoundingClientRect();
+      const linkRect = link.getBoundingClientRect();
 
-      const linkRect =
-        link.getBoundingClientRect();
-
-      const x =
-        linkRect.left - navRect.left;
-
-      const y =
-        linkRect.top - navRect.top;
-
-      indicator.style.width =
-        linkRect.width + "px";
-
-      indicator.style.height =
-        linkRect.height + "px";
-
+      indicator.style.width = linkRect.width + "px";
+      indicator.style.height = linkRect.height + "px";
       indicator.style.transform =
         "translate3d(" +
-        x +
-        "px, " +
-        y +
-        "px, 0)";
+        (linkRect.left - navRect.left) + "px, " +
+        (linkRect.top - navRect.top) + "px, 0)";
     }
 
     function positionImmediately(link) {
-      if (!link) {
-        return;
-      }
+      if (!link) return;
 
-      indicator.classList.add(
-        "no-transition"
-      );
-
+      indicator.classList.add("no-transition");
       moveIndicatorTo(link);
-
-      nav.classList.add(
-        "js-nav-ready"
-      );
+      nav.classList.add("js-nav-ready");
 
       requestAnimationFrame(function () {
         requestAnimationFrame(function () {
-          indicator.classList.remove(
-            "no-transition"
-          );
+          indicator.classList.remove("no-transition");
         });
       });
     }
 
-    if (activeLink) {
-      positionImmediately(activeLink);
-    }
+    if (activeLink) positionImmediately(activeLink);
 
     links.forEach(function (link) {
-      link.addEventListener(
-        "click",
-        function (event) {
+      link.addEventListener("click", function (event) {
+        if (
+          event.ctrlKey || event.metaKey ||
+          event.shiftKey || event.altKey ||
+          event.button !== 0
+        ) return;
 
-          if (
-            event.ctrlKey ||
-            event.metaKey ||
-            event.shiftKey ||
-            event.altKey ||
-            event.button !== 0
-          ) {
-            return;
-          }
+        const destination = new URL(link.href, window.location.href);
+        const current = new URL(window.location.href);
 
-          const destination =
-            new URL(
-              link.href,
-              window.location.href
-            );
-
-          const current =
-            new URL(
-              window.location.href
-            );
-
-          if (
-            destination.pathname ===
-            current.pathname
-          ) {
-            event.preventDefault();
-            return;
-          }
-
-          if (reduceMotion.matches) {
-            return;
-          }
-
+        if (destination.pathname === current.pathname) {
           event.preventDefault();
-
-          if (navigationPending) {
-            return;
-          }
-
-          navigationPending = true;
-
-          links.forEach(function (item) {
-            item.classList.remove(
-              "is-transition-target"
-            );
-          });
-
-          link.classList.add(
-            "is-transition-target"
-          );
-
-          moveIndicatorTo(link);
-
-          const duration =
-            getSlideDuration();
-
-          window.setTimeout(
-            function () {
-              window.location.href =
-                link.href;
-            },
-            duration + 30
-          );
+          return;
         }
-      );
-    });
 
-    function handleResize() {
-      activeLink =
-        nav.querySelector("a.active");
+        if (reduceMotion.matches) return;
 
-      if (activeLink) {
-        positionImmediately(activeLink);
-      }
-    }
+        event.preventDefault();
+        if (navigationPending) return;
 
-    window.addEventListener(
-      "resize",
-      handleResize
-    );
-
-    window.addEventListener(
-      "pageshow",
-      function () {
-
-        navigationPending = false;
+        navigationPending = true;
 
         links.forEach(function (item) {
-          item.classList.remove(
-            "is-transition-target"
-          );
+          item.classList.remove("is-transition-target");
         });
 
-        activeLink =
-          nav.querySelector("a.active");
+        link.classList.add("is-transition-target");
+        moveIndicatorTo(link);
 
-        if (activeLink) {
-          positionImmediately(activeLink);
-        }
-      }
-    );
+        window.setTimeout(function () {
+          window.location.href = link.href;
+        }, getSlideDuration() + 30);
+      });
+    });
 
-    window.addEventListener(
-      "load",
-      function () {
-        activeLink =
-          nav.querySelector("a.active");
+    function refreshIndicator() {
+      activeLink = nav.querySelector("a.active");
+      if (activeLink) positionImmediately(activeLink);
+    }
 
-        if (activeLink) {
-          positionImmediately(activeLink);
-        }
-      }
-    );
+    window.addEventListener("resize", refreshIndicator);
+    window.addEventListener("load", refreshIndicator);
 
-    if (
-      document.fonts &&
-      document.fonts.ready
-    ) {
-      document.fonts.ready.then(
-        function () {
-          activeLink =
-            nav.querySelector("a.active");
+    window.addEventListener("pageshow", function () {
+      navigationPending = false;
+      links.forEach(function (item) {
+        item.classList.remove("is-transition-target");
+      });
+      refreshIndicator();
+    });
 
-          if (activeLink) {
-            positionImmediately(activeLink);
-          }
-        }
-      );
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(refreshIndicator);
     }
   })();
 </script>
 
-
-<!-- =========================
-     CURSOR-FOLLOW CARD SPOTLIGHT
-========================= -->
+<!-- Card spotlight -->
 <script>
   (function () {
     const finePointer =
-      window.matchMedia(
-        "(hover: hover) and (pointer: fine)"
-      );
-
+      window.matchMedia("(hover: hover) and (pointer: fine)");
     const reduceMotion =
-      window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      );
+      window.matchMedia("(prefers-reduced-motion: reduce)");
 
-    if (
-      !finePointer.matches ||
-      reduceMotion.matches
-    ) {
-      return;
-    }
+    if (!finePointer.matches || reduceMotion.matches) return;
 
-    const cards =
-      document.querySelectorAll(
-        ".about-text, " +
-        ".research-project, " +
-        ".publication-item, " +
-        ".experience-item"
-      );
-
-    if (!cards.length) {
-      return;
-    }
+    const cards = document.querySelectorAll(
+      ".about-text, .research-project, .publication-item, .experience-item"
+    );
 
     cards.forEach(function (card) {
       let targetX = 0;
       let targetY = 0;
-
       let currentX = 0;
       let currentY = 0;
-
       let animationFrame = null;
       let isInside = false;
 
       function animateSpotlight() {
-        const smoothing = 0.18;
+        currentX += (targetX - currentX) * 0.18;
+        currentY += (targetY - currentY) * 0.18;
 
-        currentX +=
-          (targetX - currentX) *
-          smoothing;
-
-        currentY +=
-          (targetY - currentY) *
-          smoothing;
-
-        card.style.setProperty(
-          "--mouse-x",
-          currentX + "px"
-        );
-
-        card.style.setProperty(
-          "--mouse-y",
-          currentY + "px"
-        );
+        card.style.setProperty("--mouse-x", currentX + "px");
+        card.style.setProperty("--mouse-y", currentY + "px");
 
         const distance =
           Math.abs(targetX - currentX) +
           Math.abs(targetY - currentY);
 
-        if (
-          isInside ||
-          distance > 0.4
-        ) {
-          animationFrame =
-            requestAnimationFrame(
-              animateSpotlight
-            );
+        if (isInside || distance > 0.4) {
+          animationFrame = requestAnimationFrame(animateSpotlight);
         } else {
           animationFrame = null;
         }
       }
 
       function updateTarget(event) {
-        const rect =
-          card.getBoundingClientRect();
-
-        targetX =
-          event.clientX - rect.left;
-
-        targetY =
-          event.clientY - rect.top;
+        const rect = card.getBoundingClientRect();
+        targetX = event.clientX - rect.left;
+        targetY = event.clientY - rect.top;
 
         if (!animationFrame) {
-          animationFrame =
-            requestAnimationFrame(
-              animateSpotlight
-            );
+          animationFrame = requestAnimationFrame(animateSpotlight);
         }
       }
 
-      card.addEventListener(
-        "pointerenter",
-        function (event) {
-          const rect =
-            card.getBoundingClientRect();
+      card.addEventListener("pointerenter", function (event) {
+        const rect = card.getBoundingClientRect();
+        targetX = event.clientX - rect.left;
+        targetY = event.clientY - rect.top;
+        currentX = targetX;
+        currentY = targetY;
 
-          targetX =
-            event.clientX - rect.left;
+        card.style.setProperty("--mouse-x", currentX + "px");
+        card.style.setProperty("--mouse-y", currentY + "px");
 
-          targetY =
-            event.clientY - rect.top;
+        isInside = true;
+        card.classList.add("cursor-spotlight-active");
 
-          currentX = targetX;
-          currentY = targetY;
-
-          card.style.setProperty(
-            "--mouse-x",
-            currentX + "px"
-          );
-
-          card.style.setProperty(
-            "--mouse-y",
-            currentY + "px"
-          );
-
-          isInside = true;
-
-          card.classList.add(
-            "cursor-spotlight-active"
-          );
-
-          if (!animationFrame) {
-            animationFrame =
-              requestAnimationFrame(
-                animateSpotlight
-              );
-          }
+        if (!animationFrame) {
+          animationFrame = requestAnimationFrame(animateSpotlight);
         }
-      );
+      });
 
-      card.addEventListener(
-        "pointermove",
-        updateTarget
-      );
+      card.addEventListener("pointermove", updateTarget);
 
-      card.addEventListener(
-        "pointerleave",
-        function () {
-          isInside = false;
-
-          card.classList.remove(
-            "cursor-spotlight-active"
-          );
-        }
-      );
+      card.addEventListener("pointerleave", function () {
+        isInside = false;
+        card.classList.remove("cursor-spotlight-active");
+      });
     });
   })();
 </script>
 
-
-<!-- =========================
-     SMOOTH EXPAND / COLLAPSE
-
-     Text-only sections:
-     animate height + opacity + movement.
-
-     Sections containing images:
-     keep height AUTO so an image that loads
-     after the first click can expand naturally
-     and push the next card downward.
-========================= -->
+<!-- Expand / collapse -->
 <script>
   (function () {
     const detailsElements =
-      document.querySelectorAll(
-        ".expandable-details"
-      );
-
-    if (!detailsElements.length) {
-      return;
-    }
-
-    const animationDuration = 1000;
-
-    const animationEasing =
-      "cubic-bezier(0.4, 0, 0.2, 1)";
+      document.querySelectorAll(".expandable-details");
 
     const reduceMotion =
-      window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      );
+      window.matchMedia("(prefers-reduced-motion: reduce)");
 
-    detailsElements.forEach(
-      function (details) {
+    detailsElements.forEach(function (details) {
+      const summary = details.querySelector(".details-toggle");
+      const content = details.querySelector(".details-content");
 
-        const summary =
-          details.querySelector(
-            ".details-toggle"
-          );
+      if (!summary || !content) return;
 
-        const content =
-          details.querySelector(
-            ".details-content"
-          );
+      const containsDynamicMedia =
+        Boolean(content.querySelector("img, video, iframe"));
 
-        if (!summary || !content) {
+      let currentAnimation = null;
+      let state = details.open ? "open" : "closed";
+
+      function clearAnimationStyles() {
+        content.style.height = "";
+        content.style.opacity = "";
+        content.style.transform = "";
+        content.style.overflow = "";
+        content.style.willChange = "";
+      }
+
+      function cancelCurrentAnimation() {
+        if (!currentAnimation) return;
+        const animationToCancel = currentAnimation;
+        currentAnimation = null;
+        animationToCancel.cancel();
+      }
+
+      function runAnimation(keyframes, onFinish) {
+        const animation = content.animate(keyframes, {
+          duration: 1000,
+          easing: "cubic-bezier(0.4, 0, 0.2, 1)",
+          fill: "both"
+        });
+
+        currentAnimation = animation;
+
+        animation.onfinish = function () {
+          if (currentAnimation !== animation) return;
+          currentAnimation = null;
+          onFinish();
+        };
+
+        animation.oncancel = function () {
+          if (currentAnimation === animation) {
+            currentAnimation = null;
+          }
+        };
+      }
+
+      function openDynamicDetails() {
+        cancelCurrentAnimation();
+        details.open = true;
+        details.classList.remove("is-closing");
+        state = "opening";
+
+        content.style.height = "auto";
+        content.style.overflow = "visible";
+        content.style.willChange = "opacity, transform";
+
+        runAnimation([
+          { opacity: 0, transform: "translateY(-6px)" },
+          { opacity: 1, transform: "translateY(0)" }
+        ], function () {
+          state = "open";
+          clearAnimationStyles();
+          requestAnimationFrame(function () {
+            void details.offsetHeight;
+          });
+        });
+      }
+
+      function closeDynamicDetails() {
+        if (!details.open) {
+          state = "closed";
           return;
         }
 
-        const containsDynamicMedia =
-          Boolean(
-            content.querySelector(
-              "img, video, iframe"
-            )
-          );
+        cancelCurrentAnimation();
+        details.classList.add("is-closing");
+        state = "closing";
 
-        let currentAnimation = null;
+        content.style.height = "auto";
+        content.style.overflow = "visible";
+        content.style.willChange = "opacity, transform";
 
-        let state =
-          details.open
-            ? "open"
-            : "closed";
+        runAnimation([
+          { opacity: 1, transform: "translateY(0)" },
+          { opacity: 0, transform: "translateY(-6px)" }
+        ], function () {
+          details.open = false;
+          details.classList.remove("is-closing");
+          state = "closed";
+          clearAnimationStyles();
+        });
+      }
 
+      function getTextSnapshot() {
+        const computedStyle = window.getComputedStyle(content);
+        const opacity = parseFloat(computedStyle.opacity);
 
-        function clearAnimationStyles() {
-          content.style.height = "";
-          content.style.opacity = "";
-          content.style.transform = "";
-          content.style.overflow = "";
-          content.style.willChange = "";
-        }
+        return {
+          height: content.getBoundingClientRect().height,
+          opacity: Number.isFinite(opacity) ? opacity : 1,
+          transform: computedStyle.transform === "none"
+            ? "translateY(0)"
+            : computedStyle.transform
+        };
+      }
 
+      function cancelTextAnimation() {
+        const snapshot = getTextSnapshot();
+        cancelCurrentAnimation();
 
-        function cancelCurrentAnimation() {
-          if (!currentAnimation) {
-            return;
-          }
+        content.style.height = snapshot.height + "px";
+        content.style.opacity = String(snapshot.opacity);
+        content.style.transform = snapshot.transform;
 
-          const animationToCancel =
-            currentAnimation;
+        return snapshot;
+      }
 
-          currentAnimation = null;
+      function openTextDetails() {
+        let start;
 
-          animationToCancel.cancel();
-        }
-
-
-        function runAnimation(
-          keyframes,
-          onFinish
-        ) {
-          const animation =
-            content.animate(
-              keyframes,
-              {
-                duration:
-                  animationDuration,
-                easing:
-                  animationEasing,
-                fill:
-                  "both"
-              }
-            );
-
-          currentAnimation =
-            animation;
-
-          animation.onfinish =
-            function () {
-
-              if (
-                currentAnimation !==
-                animation
-              ) {
-                return;
-              }
-
-              currentAnimation = null;
-
-              onFinish();
-            };
-
-          animation.oncancel =
-            function () {
-
-              if (
-                currentAnimation ===
-                animation
-              ) {
-                currentAnimation = null;
-              }
-            };
-        }
-
-
-        /*
-         * IMAGE / MEDIA DETAILS
-         *
-         * Never animate a fixed height here.
-         * The content stays height:auto while
-         * the image loads. This prevents a
-         * late-loading certificate image from
-         * overflowing into the next card.
-         */
-        function openDynamicDetails() {
-
-          cancelCurrentAnimation();
-
+        if (details.open) {
+          start = cancelTextAnimation();
+        } else {
           details.open = true;
-
-          details.classList.remove(
-            "is-closing"
-          );
-
-          state = "opening";
-
-          content.style.height =
-            "auto";
-
-          content.style.overflow =
-            "visible";
-
-          content.style.willChange =
-            "opacity, transform";
-
-          runAnimation(
-            [
-              {
-                opacity: 0,
-                transform:
-                  "translateY(-6px)"
-              },
-              {
-                opacity: 1,
-                transform:
-                  "translateY(0)"
-              }
-            ],
-            function () {
-
-              state = "open";
-
-              clearAnimationStyles();
-
-              /*
-               * Force a fresh layout after any
-               * image that was still loading has
-               * obtained its intrinsic dimensions.
-               */
-              requestAnimationFrame(
-                function () {
-                  void details.offsetHeight;
-                }
-              );
-            }
-          );
-        }
-
-
-        function closeDynamicDetails() {
-
-          if (!details.open) {
-            state = "closed";
-            return;
-          }
-
-          cancelCurrentAnimation();
-
-          details.classList.add(
-            "is-closing"
-          );
-
-          state = "closing";
-
-          content.style.height =
-            "auto";
-
-          content.style.overflow =
-            "visible";
-
-          content.style.willChange =
-            "opacity, transform";
-
-          runAnimation(
-            [
-              {
-                opacity: 1,
-                transform:
-                  "translateY(0)"
-              },
-              {
-                opacity: 0,
-                transform:
-                  "translateY(-6px)"
-              }
-            ],
-            function () {
-
-              details.open = false;
-
-              details.classList.remove(
-                "is-closing"
-              );
-
-              state = "closed";
-
-              clearAnimationStyles();
-            }
-          );
-        }
-
-
-        /*
-         * TEXT-ONLY DETAILS
-         *
-         * Preserve the original smooth
-         * height animation for content that
-         * does not contain dynamic media.
-         */
-        function getTextSnapshot() {
-
-          const computedStyle =
-            window.getComputedStyle(
-              content
-            );
-
-          const currentHeight =
-            content
-              .getBoundingClientRect()
-              .height;
-
-          const currentOpacity =
-            parseFloat(
-              computedStyle.opacity
-            );
-
-          const currentTransform =
-            computedStyle.transform ===
-            "none"
-              ? "translateY(0)"
-              : computedStyle.transform;
-
-          return {
-            height:
-              currentHeight,
-
-            opacity:
-              Number.isFinite(
-                currentOpacity
-              )
-                ? currentOpacity
-                : 1,
-
-            transform:
-              currentTransform
+          start = {
+            height: 0,
+            opacity: 0,
+            transform: "translateY(-6px)"
           };
         }
 
+        details.classList.remove("is-closing");
+        state = "opening";
+        content.style.overflow = "hidden";
+        content.style.willChange = "height, opacity, transform";
 
-        function cancelTextAnimation() {
+        const targetHeight = content.scrollHeight;
 
-          const snapshot =
-            getTextSnapshot();
-
-          cancelCurrentAnimation();
-
-          content.style.height =
-            snapshot.height + "px";
-
-          content.style.opacity =
-            String(
-              snapshot.opacity
-            );
-
-          content.style.transform =
-            snapshot.transform;
-
-          return snapshot;
-        }
-
-
-        function openTextDetails() {
-
-          let start;
-
-          if (details.open) {
-
-            start =
-              cancelTextAnimation();
-
-          } else {
-
-            details.open = true;
-
-            start = {
-              height: 0,
-              opacity: 0,
-              transform:
-                "translateY(-6px)"
-            };
+        runAnimation([
+          {
+            height: start.height + "px",
+            opacity: start.opacity,
+            transform: start.transform
+          },
+          {
+            height: targetHeight + "px",
+            opacity: 1,
+            transform: "translateY(0)"
           }
-
-          details.classList.remove(
-            "is-closing"
-          );
-
-          state = "opening";
-
-          content.style.overflow =
-            "hidden";
-
-          content.style.willChange =
-            "height, opacity, transform";
-
-          const targetHeight =
-            content.scrollHeight;
-
-          runAnimation(
-            [
-              {
-                height:
-                  start.height + "px",
-
-                opacity:
-                  start.opacity,
-
-                transform:
-                  start.transform
-              },
-              {
-                height:
-                  targetHeight + "px",
-
-                opacity: 1,
-
-                transform:
-                  "translateY(0)"
-              }
-            ],
-            function () {
-
-              state = "open";
-
-              clearAnimationStyles();
-            }
-          );
-        }
-
-
-        function closeTextDetails() {
-
-          if (!details.open) {
-            state = "closed";
-            return;
-          }
-
-          const start =
-            cancelTextAnimation();
-
-          details.classList.add(
-            "is-closing"
-          );
-
-          state = "closing";
-
-          content.style.overflow =
-            "hidden";
-
-          content.style.willChange =
-            "height, opacity, transform";
-
-          runAnimation(
-            [
-              {
-                height:
-                  start.height + "px",
-
-                opacity:
-                  start.opacity,
-
-                transform:
-                  start.transform
-              },
-              {
-                height:
-                  "0px",
-
-                opacity: 0,
-
-                transform:
-                  "translateY(-6px)"
-              }
-            ],
-            function () {
-
-              details.open = false;
-
-              details.classList.remove(
-                "is-closing"
-              );
-
-              state = "closed";
-
-              clearAnimationStyles();
-            }
-          );
-        }
-
-
-        /*
-         * When an image finishes loading,
-         * make sure its parent remains in
-         * normal document flow.
-         */
-        if (containsDynamicMedia) {
-
-          const mediaItems =
-            content.querySelectorAll(
-              "img, video, iframe"
-            );
-
-          mediaItems.forEach(
-            function (media) {
-
-              const refreshLayout =
-                function () {
-
-                  if (!details.open) {
-                    return;
-                  }
-
-                  content.style.height =
-                    "auto";
-
-                  content.style.overflow =
-                    "visible";
-
-                  requestAnimationFrame(
-                    function () {
-                      void details.offsetHeight;
-                    }
-                  );
-                };
-
-              if (
-                media.tagName === "IMG"
-              ) {
-
-                if (!media.complete) {
-
-                  media.addEventListener(
-                    "load",
-                    refreshLayout,
-                    { once: true }
-                  );
-
-                  media.addEventListener(
-                    "error",
-                    refreshLayout,
-                    { once: true }
-                  );
-                }
-
-              } else {
-
-                media.addEventListener(
-                  "loadedmetadata",
-                  refreshLayout,
-                  { once: true }
-                );
-
-                media.addEventListener(
-                  "load",
-                  refreshLayout,
-                  { once: true }
-                );
-              }
-            }
-          );
-        }
-
-
-        summary.addEventListener(
-          "click",
-          function (event) {
-
-            if (reduceMotion.matches) {
-
-              window.setTimeout(
-                function () {
-
-                  state =
-                    details.open
-                      ? "open"
-                      : "closed";
-
-                },
-                0
-              );
-
-              return;
-            }
-
-            event.preventDefault();
-
-            const shouldOpen =
-              state === "closed" ||
-              state === "closing";
-
-            if (containsDynamicMedia) {
-
-              if (shouldOpen) {
-                openDynamicDetails();
-              } else {
-                closeDynamicDetails();
-              }
-
-            } else {
-
-              if (shouldOpen) {
-                openTextDetails();
-              } else {
-                closeTextDetails();
-              }
-            }
-          }
-        );
+        ], function () {
+          state = "open";
+          clearAnimationStyles();
+        });
       }
-    );
+
+      function closeTextDetails() {
+        if (!details.open) {
+          state = "closed";
+          return;
+        }
+
+        const start = cancelTextAnimation();
+        details.classList.add("is-closing");
+        state = "closing";
+        content.style.overflow = "hidden";
+        content.style.willChange = "height, opacity, transform";
+
+        runAnimation([
+          {
+            height: start.height + "px",
+            opacity: start.opacity,
+            transform: start.transform
+          },
+          {
+            height: "0px",
+            opacity: 0,
+            transform: "translateY(-6px)"
+          }
+        ], function () {
+          details.open = false;
+          details.classList.remove("is-closing");
+          state = "closed";
+          clearAnimationStyles();
+        });
+      }
+
+      if (containsDynamicMedia) {
+        content.querySelectorAll("img, video, iframe")
+          .forEach(function (media) {
+            function refreshLayout() {
+              if (!details.open) return;
+
+              content.style.height = "auto";
+              content.style.overflow = "visible";
+
+              requestAnimationFrame(function () {
+                void details.offsetHeight;
+              });
+            }
+
+            if (media.tagName === "IMG") {
+              if (!media.complete) {
+                media.addEventListener("load", refreshLayout, { once: true });
+                media.addEventListener("error", refreshLayout, { once: true });
+              }
+            } else {
+              media.addEventListener(
+                "loadedmetadata", refreshLayout, { once: true }
+              );
+              media.addEventListener("load", refreshLayout, { once: true });
+            }
+          });
+      }
+
+      summary.addEventListener("click", function (event) {
+        if (reduceMotion.matches) {
+          window.setTimeout(function () {
+            state = details.open ? "open" : "closed";
+          }, 0);
+          return;
+        }
+
+        event.preventDefault();
+
+        const shouldOpen =
+          state === "closed" || state === "closing";
+
+        if (containsDynamicMedia) {
+          if (shouldOpen) openDynamicDetails();
+          else closeDynamicDetails();
+        } else {
+          if (shouldOpen) openTextDetails();
+          else closeTextDetails();
+        }
+      });
+    });
   })();
 </script>
-
-
-
 
 <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 
