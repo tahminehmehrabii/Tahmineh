@@ -5,16 +5,14 @@ permalink: /publications/
 
 <style>
 .publications-page .publication-text {
-  color: inherit;
   text-align: left;
   line-height: 1.8;
   margin: 12px 0 16px;
-  word-break: normal;
   overflow-wrap: break-word;
 }
 
-.publications-page .publication-text strong {
-  color: inherit !important;
+.publications-page .publication-text .author-name {
+  color: #329bb5 !important;
   font-weight: 700;
 }
 
@@ -42,13 +40,13 @@ permalink: /publications/
     <h4 class="experience-role">Peer reviewed</h4>
 
     <p class="publication-text">
-      <strong>Mehrabi, T</strong>., Heidarzadehpilehrood, R.,
-      Mobasheri, M., Sobati, T., Heshmati, M., &amp;
-      Pirhoushiaran, M. (2025). Dysregulated key long non-coding
-      RNAs TP53TG1, RFPL1S, DLEU1, and HCG4 associated with
-      epithelial-mesenchymal transition (EMT) in
-      castration-resistant prostate cancer. Advances in Cancer
-      Biology – Metastasis, 13, 100132.
+      <strong class="author-name">Mehrabi, T</strong>.,
+      Heidarzadehpilehrood, R., Mobasheri, M., Sobati, T.,
+      Heshmati, M., &amp; Pirhoushiaran, M. (2025).
+      Dysregulated key long non-coding RNAs TP53TG1, RFPL1S,
+      DLEU1, and HCG4 associated with epithelial-mesenchymal
+      transition (EMT) in castration-resistant prostate cancer.
+      Advances in Cancer Biology – Metastasis, 13, 100132.
     </p>
 
     <p class="publication-doi">
@@ -65,8 +63,9 @@ permalink: /publications/
     <h4 class="experience-role">Manuscript under revision</h4>
 
     <p class="publication-text">
-      <strong>Mehrabi, T</strong>., Isavi, M., Gholami, A.,
-      Hamidieh, A. A., &amp; Heidarzadeh-Pilehrood, R. (2026).
+      <strong class="author-name">Mehrabi, T</strong>.,
+      Isavi, M., Gholami, A., Hamidieh, A. A., &amp;
+      Heidarzadeh-Pilehrood, R. (2026).
       Integrating single-cell and bulk RNA sequencing with
       machine learning algorithms identified MYBL2 as a candidate
       transcriptomic biomarker for diagnosing laryngeal squamous
@@ -81,10 +80,12 @@ permalink: /publications/
     <h4 class="experience-role">Preprint</h4>
 
     <p class="publication-text">
-      Akbarnia Dafrazi, A., <strong>Mehrabi, T</strong>.,
-      &amp; Malekinejad, F. (2023). A bioinformatics study for
-      recognition of hub genes and pathways in pancreatic ductal
-      adenocarcinoma. arXiv:2303.14440.
+      Akbarnia Dafrazi, A.,
+      <strong class="author-name">Mehrabi, T</strong>.,
+      &amp; Malekinejad, F. (2023).
+      A bioinformatics study for recognition of hub genes and
+      pathways in pancreatic ductal adenocarcinoma.
+      arXiv:2303.14440.
     </p>
 
     <p class="publication-doi">
