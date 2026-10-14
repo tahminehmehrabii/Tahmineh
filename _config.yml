@@ -39,12 +39,10 @@ logo: "/Picture.jpg"
 # ------------------------------------------------------------
 
 research_interests:
-  - "Bulk, Single-Cell, and Spatial Transcriptomics"
-  - "Tumor Heterogeneity and Tumor Microenvironment"
-  - "Cancer Immunology"
-  - "Cancer Microbiome and Host–Microbe Interactions"
-  - "Multi-Omics Integration"
-  - "Machine Learning and Cancer Biomarker Discovery"
+  - "Bulk, single-cell and spatial transcriptomics"
+  - "Tumor heterogeneity and microenvironment"
+  - "Cancer microbiome and host–microbe interactions"
+  - "Bioinformatics, machine learning and multi-omics"
 
 # ------------------------------------------------------------
 # Personal / academic links
