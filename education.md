@@ -34,27 +34,6 @@ permalink: /education/
 
     <div class="experience-header">
       <h4 class="experience-role">
-        M.Sc. in Microbiology
-      </h4>
-      <span class="experience-date">
-        Sep 2016 – Feb 2018
-      </span>
-    </div>
-
-    <p class="experience-organization">
-      Azad University, Karaj Branch
-    </p>
-
-    <p class="experience-meta">
-      Karaj, Iran · GPA: 3.15/4.00
-    </p>
-
-  </article>
-
-  <article class="experience-item">
-
-    <div class="experience-header">
-      <h4 class="experience-role">
         B.Sc. in General Biology
       </h4>
       <span class="experience-date">
