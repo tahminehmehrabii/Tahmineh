@@ -104,38 +104,4 @@ permalink: /research/
 
   </article>
 
-  <article class="experience-item">
-
-    <div class="experience-header">
-      <h4 class="experience-role">
-        <em>Fusobacterium nucleatum</em> and Intestinal Inflammation
-      </h4>
-      <span class="experience-date">
-        Feb 2017 – Mar 2018
-      </span>
-    </div>
-
-    <p class="experience-organization">
-      Graduate Researcher in Microbiology
-    </p>
-
-    <p class="experience-meta">
-      Azad University, Karaj Branch
-      · Supervisor: Fatemeh Abedini, Ph.D.
-    </p>
-
-    <ul class="experience-details">
-      <li>
-        Cultured <em>F. nucleatum</em> anaerobically and performed
-        microbial DNA extraction and species-specific PCR on
-        fecal samples from experimental mice.
-      </li>
-      <li>
-        Measured fecal IL-6, TNF-α, and IL-1β using sandwich ELISA
-        to compare inflammatory responses across experimental groups.
-      </li>
-    </ul>
-
-  </article>
-
 </div>
