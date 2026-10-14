@@ -10,20 +10,6 @@ permalink: /experience/
   </h3>
 
   <article class="experience-item">
-    <h4 class="experience-role">Microbiology</h4>
-    <p class="experience-meta">Master’s Research Experience</p>
-    <p>
-      Anaerobic culture of <em>Fusobacterium nucleatum</em>;
-      preparation of standardized bacterial suspensions;
-      fecal sample collection at defined time points;
-      microbial DNA extraction; species-specific PCR with
-      appropriate controls; agarose gel electrophoresis;
-      sandwich ELISA for fecal IL-6, TNF-α, and IL-1β;
-      comparison of inflammatory responses across experimental groups.
-    </p>
-  </article>
-
-  <article class="experience-item">
     <h4 class="experience-role">Laboratory Mouse Handling</h4>
     <p class="experience-meta">Master’s Research Experience</p>
     <p>
