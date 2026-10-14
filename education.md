@@ -52,3 +52,4 @@ permalink: /education/
   </article>
 
 </div>
+
