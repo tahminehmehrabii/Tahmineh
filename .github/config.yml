@@ -17,11 +17,10 @@ baseurl: "/Tahmineh"
 logo: "/assets/img/Picture.jpg"
 
 research_interests:
-  - "Spatial Multi-Omics & Spatial Biology"
-  - "Prognostic Biomarkers & Precision Oncology"
-  - "Tumor Microenvironment & Spatial Cell Interactions"
-  - "Single-Cell Cancer Genomics & Tumor Heterogeneity"
-  - "Bioinformatics & Machine Learning"
+  - "Bulk, single-cell and spatial transcriptomics"
+  - "Tumor heterogeneity and microenvironment"
+  - "Cancer microbiome and host–microbe interactions"
+  - "Bioinformatics, machine learning and multi-omics"
 
 email: "TahminehMehrabii@gmail.com"
 
