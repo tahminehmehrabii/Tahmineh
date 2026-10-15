@@ -10,17 +10,6 @@ permalink: /experience/
   </h3>
 
   <article class="experience-item">
-    <h4 class="experience-role">Molecular Biology</h4>
-    <p class="experience-meta">Professional Laboratory Experience</p>
-    <p>
-      DNA/RNA extraction; cDNA synthesis; PCR and RT-qPCR;
-      primer design; agarose gel electrophoresis;
-      assay quality control and result analysis.
-      Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
-    </p>
-  </article>
-
-  <article class="experience-item">
     <h4 class="experience-role">
       Programming and Reproducible Analysis
     </h4>
@@ -70,6 +59,16 @@ permalink: /experience/
       pseudobulk classification;
       leave-one-patient-out cross-validation;
       ROC/AUC evaluation; external validation.
+    </p>
+  </article>
+
+  <article class="experience-item">
+    <h4 class="experience-role">Molecular Biology</h4>
+    <p>
+      DNA/RNA extraction; cDNA synthesis; PCR and RT-qPCR;
+      primer design; agarose gel electrophoresis;
+      assay quality control and result analysis.
+      Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
     </p>
   </article>
 
