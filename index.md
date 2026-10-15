@@ -5,7 +5,7 @@ permalink: /
 
 <div class="about-text" markdown="1">
 
-I am a molecular biologist and cancer bioinformatics researcher with a background in molecular laboratory work. I integrate bulk, single-cell, and spatial transcriptomics with machine learning to study tumor heterogeneity, immune interactions, and cancer-associated microbial niches. My research interests include the tumor microenvironment, cancer immunology, cancer microbiome, and multi-omics integration.
+My research focuses on computational cancer biology, integrating single-cell and spatial transcriptomics, bulk RNA-seq, and machine learning to investigate tumor heterogeneity, cancer-associated molecular signatures, and biomarkers. I am particularly interested in understanding the tumor microenvironment, cell–cell communication, and spatial interactions between cancer cells, immune populations, and the microbiome. My goal is to develop integrative computational approaches that improve our understanding of cancer biology and support the discovery of clinically relevant diagnostic and prognostic biomarkers.
 
 <img src="{{ '/assets/tumor-microenvironment.png' | relative_url }}"
      alt="Conceptual illustration of the tumor microenvironment"
