@@ -10,15 +10,6 @@ permalink: /experience/
   </h3>
 
   <article class="experience-item">
-    <h4 class="experience-role">Laboratory Mouse Handling</h4>
-    <p class="experience-meta">Master’s Research Experience</p>
-    <p>
-      Handling and care of experimental mice;
-      fecal sample collection at defined time points.
-    </p>
-  </article>
-
-  <article class="experience-item">
     <h4 class="experience-role">Molecular Biology</h4>
     <p class="experience-meta">Professional Laboratory Experience</p>
     <p>
@@ -26,26 +17,6 @@ permalink: /experience/
       primer design; agarose gel electrophoresis;
       assay quality control and result analysis.
       Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
-    </p>
-  </article>
-
-  <article class="experience-item">
-    <h4 class="experience-role">Mammalian Cell Culture</h4>
-    <p class="experience-meta">Hands-on Internship Experience</p>
-    <p>
-      Aseptic handling; cell seeding and passaging;
-      culture maintenance; cell counting;
-      cryopreservation and thawing.
-    </p>
-  </article>
-
-  <article class="experience-item">
-    <h4 class="experience-role">Immunohistochemistry</h4>
-    <p class="experience-meta">Hands-on Internship Experience</p>
-    <p>
-      Tissue processing; deparaffinization; antigen retrieval;
-      antibody staining; chromogenic detection;
-      microscopy and IHC image analysis.
     </p>
   </article>
 
