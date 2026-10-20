@@ -63,15 +63,22 @@ permalink: /experience/
   </article>
 
   <article class="experience-item">
-    <h4 class="experience-role">Molecular Biology</h4>
+    <h4 class="experience-role">
+      Molecular Biology
+    </h4>
     <p>
       DNA/RNA extraction; cDNA synthesis; PCR and RT-qPCR;
       primer design; agarose gel electrophoresis;
       assay quality control and result analysis.
       Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
     </p>
+  </article>
+
+  <article class="experience-item">
+    <h4 class="experience-role">
+      Immunohistochemistry (IHC)
+    </h4>
     <p>
-      <strong>Immunohistochemistry (IHC):</strong>
       Tissue immunostaining and assessment of protein expression.
     </p>
   </article>
