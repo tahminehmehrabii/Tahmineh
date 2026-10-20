@@ -70,6 +70,10 @@ permalink: /experience/
       assay quality control and result analysis.
       Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
     </p>
+    <p>
+      <strong>Immunohistochemistry (IHC):</strong>
+      Tissue immunostaining and assessment of protein expression.
+    </p>
   </article>
 
 </div>
