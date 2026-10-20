@@ -9,13 +9,13 @@ permalink: /research/
     Research Experience
   </h3>
 
-  <!-- Colorectal Cancer: Single-Cell, Spatial Transcriptomics & Machine Learning -->
+  <!-- Colorectal Cancer: Single-Cell and Spatial Transcriptomics -->
   <article class="experience-item">
 
     <div class="experience-header">
       <h4 class="experience-role">
-        Integrative Single-Cell and Spatial Transcriptomic Analysis
-        of Colorectal Cancer and Microbial Spatial Niches
+        Single-Cell and Spatial Transcriptomic Analysis of
+        Colorectal Cancer and Host–Bacteria Associations
       </h4>
       <span class="experience-date">
         In Progress
@@ -24,7 +24,6 @@ permalink: /research/
 
     <p class="experience-organization">
       Research Collaborator — Single-Cell &amp; Spatial Transcriptomics
-      and Machine Learning
     </p>
 
     <p class="experience-meta">
@@ -37,28 +36,29 @@ permalink: /research/
 
     <ul class="experience-details">
       <li>
-        Developed Seurat workflows for paired tumor and normal
-        samples from 10 patients, including quality control,
-        data integration, clustering, cell-type annotation,
-        and cellular composition analysis.
+        Developed Seurat workflows for 10 matched tumor–normal
+        patient pairs, including quality control, normalization,
+        clustering, cell-type annotation, and paired cell-type
+        and subtype composition analysis.
       </li>
       <li>
-        Analyzed cellular trajectories and cell–cell communication
-        using Monocle 2 and CellChat; developed pseudobulk
-        Elastic Net, Random Forest, and XGBoost classifiers
-        evaluated using leave-one-patient-out cross-validation.
+        Applied RCTD deconvolution to four spatial sections from
+        two matched patient pairs, separating host and bacterial
+        signals and mapping cell-type proportions and selected
+        host features.
       </li>
       <li>
-        Applied RCTD spatial deconvolution and host–microbe
-        co-localization and neighborhood analyses to investigate
-        Porphyromonas-associated microbial niches, myeloid
-        populations, and EPCAM-related epithelial spatial patterns.
+        Investigated spatial associations of bacterial signals
+        with myeloid, epithelial-signature, and EPCAM features;
+        characterized paired tumor–normal changes across
+        19 bacterial groups and exploratory bacterial spatial
+        co-occurrence.
       </li>
     </ul>
 
   </article>
 
-  <!-- Laryngeal Cancer: Transcriptomics & Machine Learning -->
+  <!-- Laryngeal Cancer: Transcriptomics and Machine Learning -->
   <article class="experience-item">
 
     <div class="experience-header">
