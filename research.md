@@ -77,6 +77,7 @@
     a {
       color: #087f8c;
       text-underline-offset: 3px;
+      overflow-wrap: anywhere;
     }
 
     a:hover {
@@ -112,6 +113,7 @@
 <body>
   <main>
     <h1>Research Experience</h1>
+
     <p class="intro">
       Tahmineh Mehrabi — Cancer Transcriptomics Researcher
     </p>
@@ -119,9 +121,10 @@
     <!-- Lung Adenocarcinoma -->
     <article class="experience-item">
       <div class="experience-header">
-        <h4 class="experience-role">
+        <h2 class="experience-role">
           Integrated Transcriptomic Analysis of Lung Adenocarcinoma
-        </h4>
+        </h2>
+
         <span class="experience-date">In Progress</span>
       </div>
 
@@ -144,12 +147,14 @@
           LASSO–Cox prognostic model and evaluated risk-group survival
           differences in an independent dataset.
         </li>
+
         <li>
           Applied Seurat workflows for single-cell quality control,
           normalization, clustering, and cell-type annotation;
           examined GPR87 expression in malignant and non-malignant
           cell populations.
         </li>
+
         <li>
           Analyzed Visium data from 56 tissue sections across
           25 patients and mapped GPR87 expression onto H&amp;E images;
@@ -162,10 +167,11 @@
     <!-- Colorectal Cancer -->
     <article class="experience-item">
       <div class="experience-header">
-        <h4 class="experience-role">
+        <h2 class="experience-role">
           Single-Cell and Spatial Transcriptomic Analysis of
           Colorectal Cancer and Host–Bacteria Associations
-        </h4>
+        </h2>
+
         <span class="experience-date">In Progress</span>
       </div>
 
@@ -188,12 +194,14 @@
           clustering, cell-type annotation, and paired cell-type
           and subtype composition analysis.
         </li>
+
         <li>
           Applied RCTD deconvolution to four spatial sections from
           two matched patient pairs, separating host and bacterial
           signals and mapping cell-type proportions and selected
           host features.
         </li>
+
         <li>
           Investigated spatial associations of bacterial signals
           with myeloid, epithelial-signature, and EPCAM features;
@@ -207,10 +215,10 @@
     <!-- Laryngeal Squamous Cell Carcinoma -->
     <article class="experience-item">
       <div class="experience-header">
-        <h4 class="experience-role">
+        <h2 class="experience-role">
           MYBL2 Biomarker Discovery in Laryngeal Squamous Cell
           Carcinoma (LSCC)
-        </h4>
+        </h2>
       </div>
 
       <p class="experience-organization">
@@ -231,11 +239,13 @@
           to investigate MYBL2 as a candidate transcriptomic
           biomarker in LSCC.
         </li>
+
         <li>
           Applied differential expression analysis, WGCNA,
           inferCNV and LASSO to assess transcriptional signatures
           and malignant epithelial populations.
         </li>
+
         <li>
           Evaluated biomarker models using Random Forest and SVM
           alongside external transcriptomic validation;
@@ -248,10 +258,10 @@
     <!-- Master's Thesis -->
     <article class="experience-item">
       <div class="experience-header">
-        <h4 class="experience-role">
+        <h2 class="experience-role">
           EMT-Associated lncRNA Signatures in Castration-Resistant
           Prostate Cancer (CRPC)
-        </h4>
+        </h2>
       </div>
 
       <p class="experience-organization">
@@ -282,6 +292,7 @@
           in R, including annotation, normalization and
           differential expression analysis.
         </li>
+
         <li>
           Combined WGCNA, GO/KEGG enrichment and interpretation
           of expression networks to prioritize TP53TG1, RFPL1S,
