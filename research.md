@@ -2,9 +2,7 @@
   <h4 class="experience-role">
     Integrated Transcriptomic Analysis of Lung Adenocarcinoma
   </h4>
-  <span class="experience-date">
-    In Progress
-  </span>
+  <span class="experience-date">In Progress</span>
 </div>
 
 <p class="experience-organization">
@@ -14,9 +12,7 @@
 <p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/LUAD"
      target="_blank"
-     rel="noopener noreferrer">
-    GitHub
-  </a>
+     rel="noopener noreferrer">GitHub</a>
 </p>
 
 <ul class="experience-details">
@@ -39,15 +35,12 @@
   </li>
 </ul>
 
-
 <div class="experience-header">
   <h4 class="experience-role">
     Single-Cell and Spatial Transcriptomic Analysis of
     Colorectal Cancer and Host–Bacteria Associations
   </h4>
-  <span class="experience-date">
-    In Progress
-  </span>
+  <span class="experience-date">In Progress</span>
 </div>
 
 <p class="experience-organization">
@@ -57,9 +50,7 @@
 <p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/CRC-SingleCell-Spatial-Analysis"
      target="_blank"
-     rel="noopener noreferrer">
-    GitHub
-  </a>
+     rel="noopener noreferrer">GitHub</a>
 </p>
 
 <ul class="experience-details">
@@ -82,7 +73,6 @@
   </li>
 </ul>
 
-
 <div class="experience-header">
   <h4 class="experience-role">
     MYBL2 Biomarker Discovery in Laryngeal Squamous Cell Carcinoma (LSCC)
@@ -96,9 +86,7 @@
 <p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/LSCC-MYBL2-Biomarker"
      target="_blank"
-     rel="noopener noreferrer">
-    GitHub
-  </a>
+     rel="noopener noreferrer">GitHub</a>
 </p>
 
 <ul class="experience-details">
@@ -118,7 +106,6 @@
     using CellChat.
   </li>
 </ul>
-
 
 <div class="experience-header">
   <h4 class="experience-role">
@@ -142,9 +129,7 @@
   <br>
   <a href="https://github.com/tahminehmehrabii/CRPC-lncRNA-WGCNA-Analysis-of-GSE74685"
      target="_blank"
-     rel="noopener noreferrer">
-    GitHub
-  </a>
+     rel="noopener noreferrer">GitHub</a>
 </p>
 
 <ul class="experience-details">
