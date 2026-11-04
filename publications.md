@@ -1,100 +1,108 @@
 ---
 layout: default
+title: Publications
 permalink: /publications/
 ---
 
-<style>
-.publications-page .publication-text {
-  text-align: left;
-  line-height: 1.8;
-  margin: 12px 0 16px;
-  overflow-wrap: break-word;
-}
+<section class="publication-section">
 
-.publications-page .publication-text .author-name {
-  color: #329bb5 !important;
-  font-weight: 700;
-}
+  <h2 class="publication-section-title">
+    Peer-Reviewed Publications
+  </h2>
 
-.publications-page .publication-doi {
-  text-align: left;
-  line-height: 1.6;
-  margin: 0;
-  overflow-wrap: anywhere;
-}
+  <div class="publication-item">
 
-.publications-page .experience-role {
-  margin-bottom: 12px;
-  line-height: 1.5;
-}
-</style>
+    <p>
+      <strong>Mehrabi, T.</strong>, Isavi, M., Gholami, A.,
+      Hamidieh, A. A., &amp; Heidarzadeh-Pilehrood, R. (2026).
+      Integrating single-cell and bulk RNA sequencing with ML
+      algorithms identified MYBL2 as a candidate transcriptomic
+      biomarker for diagnosing laryngeal squamous cell carcinoma
+      (LSCC).
+      <em>Translational Oncology, 74</em>, 103095.
+    </p>
 
-<div class="experience-section publications-page">
+    <p>
+      <a href="https://doi.org/10.1016/j.tranon.2026.103095"
+         target="_blank"
+         rel="noopener noreferrer">
+        https://doi.org/10.1016/j.tranon.2026.103095
+      </a>
+    </p>
 
-  <h3 class="experience-section-title">
-    Publications and Manuscripts
-  </h3>
+    <p>
+      <em>
+        Role: Transcriptomic Data Analysis, Machine Learning Modeling,
+        Data Interpretation, and Manuscript Writing.
+      </em>
+    </p>
 
-  <article class="experience-item">
+  </div>
 
-    <h4 class="experience-role">Peer reviewed</h4>
 
-    <p class="publication-text">
-      <strong class="author-name">Mehrabi, T</strong>.,
-      Heidarzadehpilehrood, R., Mobasheri, M., Sobati, T.,
-      Heshmati, M., &amp; Pirhoushiaran, M. (2025).
+  <div class="publication-item">
+
+    <p>
+      <strong>Mehrabi, T.</strong>, Heidarzadehpilehrood, R.,
+      Mobasheri, M., Sobati, T., Heshmati, M., &amp;
+      Pirhoushiaran, M. (2025).
       Dysregulated key long non-coding RNAs TP53TG1, RFPL1S,
       DLEU1, and HCG4 associated with epithelial-mesenchymal
       transition (EMT) in castration-resistant prostate cancer.
-      Advances in Cancer Biology – Metastasis, 13, 100132.
+      <em>Advances in Cancer Biology – Metastasis, 13</em>, 100132.
     </p>
 
-    <p class="publication-doi">
+    <p>
       <a href="https://doi.org/10.1016/j.adcanc.2025.100132"
-         target="_blank" rel="noopener">
-        doi:10.1016/j.adcanc.2025.100132
+         target="_blank"
+         rel="noopener noreferrer">
+        https://doi.org/10.1016/j.adcanc.2025.100132
       </a>
     </p>
 
-  </article>
-
-  <article class="experience-item">
-
-    <h4 class="experience-role">Manuscript under revision</h4>
-
-    <p class="publication-text">
-      <strong class="author-name">Mehrabi, T</strong>.,
-      Isavi, M., Gholami, A., Hamidieh, A. A., &amp;
-      Heidarzadeh-Pilehrood, R. (2026).
-      Integrating single-cell and bulk RNA sequencing with
-      machine learning algorithms identified MYBL2 as a candidate
-      transcriptomic biomarker for diagnosing laryngeal squamous
-      cell carcinoma (LSCC). Submitted to Translational Oncology;
-      under revision.
+    <p>
+      <em>
+        Role: Bioinformatics Analysis, Data Interpretation,
+        and Manuscript Writing.
+      </em>
     </p>
 
-  </article>
+  </div>
 
-  <article class="experience-item">
+</section>
 
-    <h4 class="experience-role">Preprint</h4>
 
-    <p class="publication-text">
-      Akbarnia Dafrazi, A.,
-      <strong class="author-name">Mehrabi, T</strong>.,
-      &amp; Malekinejad, F. (2023).
+<section class="publication-section">
+
+  <h2 class="publication-section-title">
+    Preprint
+  </h2>
+
+  <div class="publication-item">
+
+    <p>
+      Akbarnia Dafrazi, A., <strong>Mehrabi, T.</strong>, &amp;
+      Malekinejad, F. (2023).
       A bioinformatics study for recognition of hub genes and
       pathways in pancreatic ductal adenocarcinoma.
-      arXiv:2303.14440.
+      <em>arXiv</em>:2303.14440.
     </p>
 
-    <p class="publication-doi">
+    <p>
       <a href="https://doi.org/10.48550/arXiv.2303.14440"
-         target="_blank" rel="noopener">
-        doi:10.48550/arXiv.2303.14440
+         target="_blank"
+         rel="noopener noreferrer">
+        https://doi.org/10.48550/arXiv.2303.14440
       </a>
     </p>
 
-  </article>
+    <p>
+      <em>
+        Role: Bioinformatics Analysis, Data Interpretation,
+        and Manuscript Writing.
+      </em>
+    </p>
 
-</div>
+  </div>
+
+</section>
