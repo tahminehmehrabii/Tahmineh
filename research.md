@@ -2,7 +2,10 @@
   <h4 class="experience-role">
     Integrated Transcriptomic Analysis of Lung Adenocarcinoma
   </h4>
-  <span class="experience-date">In Progress</span>
+
+  <span class="experience-date">
+    In Progress
+  </span>
 </div>
 
 <p class="experience-organization">
@@ -12,7 +15,9 @@
 <p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/LUAD"
      target="_blank"
-     rel="noopener noreferrer">GitHub</a>
+     rel="noopener noreferrer">
+    GitHub
+  </a>
 </p>
 
 <ul class="experience-details">
@@ -22,11 +27,13 @@
     prognostic model and evaluated risk-group survival differences
     in an independent dataset.
   </li>
+
   <li>
     Applied Seurat workflows for single-cell quality control,
     normalization, clustering, and cell-type annotation; examined
     GPR87 expression in malignant and non-malignant cell populations.
   </li>
+
   <li>
     Analyzed Visium data from 56 tissue sections across 25 patients
     and mapped GPR87 expression onto H&amp;E images; used ssGSEA and
@@ -35,12 +42,16 @@
   </li>
 </ul>
 
+
 <div class="experience-header">
   <h4 class="experience-role">
     Single-Cell and Spatial Transcriptomic Analysis of
     Colorectal Cancer and Host–Bacteria Associations
   </h4>
-  <span class="experience-date">In Progress</span>
+
+  <span class="experience-date">
+    In Progress
+  </span>
 </div>
 
 <p class="experience-organization">
@@ -50,7 +61,9 @@
 <p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/CRC-SingleCell-Spatial-Analysis"
      target="_blank"
-     rel="noopener noreferrer">GitHub</a>
+     rel="noopener noreferrer">
+    GitHub
+  </a>
 </p>
 
 <ul class="experience-details">
@@ -60,11 +73,13 @@
     cell-type annotation, and paired cell-type and subtype
     composition analysis.
   </li>
+
   <li>
     Applied RCTD deconvolution to four spatial sections from two
     matched patient pairs, separating host and bacterial signals
     and mapping cell-type proportions and selected host features.
   </li>
+
   <li>
     Investigated spatial associations of bacterial signals with
     myeloid, epithelial-signature, and EPCAM features; characterized
@@ -72,6 +87,7 @@
     exploratory bacterial spatial co-occurrence.
   </li>
 </ul>
+
 
 <div class="experience-header">
   <h4 class="experience-role">
@@ -86,7 +102,9 @@
 <p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/LSCC-MYBL2-Biomarker"
      target="_blank"
-     rel="noopener noreferrer">GitHub</a>
+     rel="noopener noreferrer">
+    GitHub
+  </a>
 </p>
 
 <ul class="experience-details">
@@ -94,11 +112,13 @@
     Integrated public bulk and single-cell RNA-seq datasets to
     investigate MYBL2 as a candidate transcriptomic biomarker in LSCC.
   </li>
+
   <li>
     Applied differential expression analysis, WGCNA, inferCNV and
     LASSO to assess transcriptional signatures and malignant
     epithelial populations.
   </li>
+
   <li>
     Evaluated biomarker models using Random Forest and SVM alongside
     external transcriptomic validation; investigated enrichment,
@@ -106,6 +126,7 @@
     using CellChat.
   </li>
 </ul>
+
 
 <div class="experience-header">
   <h4 class="experience-role">
@@ -126,10 +147,14 @@
 <p class="experience-meta">
   Thesis: EMT-associated lncRNA signatures in
   castration-resistant prostate cancer (CRPC)
-  <br>
+</p>
+
+<p class="experience-meta">
   <a href="https://github.com/tahminehmehrabii/CRPC-lncRNA-WGCNA-Analysis-of-GSE74685"
      target="_blank"
-     rel="noopener noreferrer">GitHub</a>
+     rel="noopener noreferrer">
+    GitHub
+  </a>
 </p>
 
 <ul class="experience-details">
@@ -138,6 +163,7 @@
     including annotation, normalization and differential
     expression analysis.
   </li>
+
   <li>
     Combined WGCNA, GO/KEGG enrichment and interpretation of
     expression networks to prioritize TP53TG1, RFPL1S, DLEU1
