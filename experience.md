@@ -1,86 +1,155 @@
 ---
 layout: default
+title: Skills
 permalink: /experience/
 ---
 
-<div class="experience-section">
+<section class="experience-section">
 
-  <h3 class="experience-section-title">
-    Research and Technical Skills
-  </h3>
+  <h2 class="experience-section-title">
+    Computational &amp; Experimental Research Skills
+  </h2>
 
-  <article class="experience-item">
+  <div class="experience-item">
+
     <h4 class="experience-role">
-      Programming and Reproducible Analysis
+      Programming &amp; Computational Workflows
     </h4>
-    <p class="experience-meta">Research Experience</p>
-    <p>
-      R; Python for biological data processing;
-      Linux/Ubuntu command line;
-      reproducible computational pipelines.
-    </p>
-  </article>
 
-  <article class="experience-item">
+    <p>
+      R, Python, Linux/Ubuntu, reproducible bioinformatics.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
     <h4 class="experience-role">
-      Bulk RNA-seq and Microarray Analysis
+      Single-Cell &amp; Multi-Omics Analysis
     </h4>
-    <p class="experience-meta">Research Experience</p>
-    <p>
-      FastQC; Trimmomatic; HISAT2; gene-level quantification;
-      probe annotation; normalization; differential expression
-      analysis; batch correction; WGCNA; GO/KEGG enrichment;
-      transcriptomic integration and visualization.
-    </p>
-  </article>
 
-  <article class="experience-item">
+    <p>
+      Seurat, inferCNV, scRNA-seq and bulk RNA-seq integration.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
     <h4 class="experience-role">
-      Single-cell and Spatial Transcriptomics
+      Machine Learning &amp; Biomarker Discovery
     </h4>
-    <p class="experience-meta">Research Experience</p>
-    <p>
-      Seurat-based QC, normalization, variable feature selection,
-      PCA/UMAP, clustering, cell annotation, marker identification,
-      multi-sample integration, and cell composition analysis;
-      inferCNV; Monocle 2; CellChat; RCTD deconvolution;
-      spatial gene expression, bacteria–host co-localization,
-      and neighborhood analysis.
-    </p>
-  </article>
 
-  <article class="experience-item">
+    <p>
+      LASSO, Random Forest, SVM.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
     <h4 class="experience-role">
-      Machine Learning and Biomarker Evaluation
+      Model Validation
     </h4>
-    <p class="experience-meta">Research Experience</p>
-    <p>
-      LASSO and Elastic Net; Random Forest; SVM; XGBoost;
-      pseudobulk classification;
-      leave-one-patient-out cross-validation;
-      ROC/AUC evaluation; external validation.
-    </p>
-  </article>
 
-  <article class="experience-item">
+    <p>
+      Leave-one-patient-out cross-validation, ROC/AUC,
+      external validation.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
     <h4 class="experience-role">
-      Molecular Biology
+      Systems Biology &amp; Functional Enrichment
     </h4>
-    <p>
-      DNA/RNA extraction; cDNA synthesis; PCR and RT-qPCR;
-      primer design; agarose gel electrophoresis;
-      assay quality control and result analysis.
-      Clinical samples: blood, plasma, serum, swabs, urine, and tissue.
-    </p>
-  </article>
 
-  <article class="experience-item">
+    <p>
+      WGCNA, PPI networks, GO/KEGG enrichment.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
+    <h4 class="experience-role">
+      Spatial Transcriptomics
+    </h4>
+
+    <p>
+      RCTD, spatial deconvolution, host–microbe co-localization,
+      neighborhood analysis.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
+    <h4 class="experience-role">
+      Cell Trajectory &amp; Communication
+    </h4>
+
+    <p>
+      Monocle 2, pseudotime analysis, CellChat.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
+    <h4 class="experience-role">
+      Bulk Transcriptomics &amp; Microarray
+    </h4>
+
+    <p>
+      FastQC, Trimmomatic, HISAT2, differential expression,
+      normalization, batch correction.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="experience-section">
+
+  <h2 class="experience-section-title">
+    Experimental &amp; Molecular Biology
+  </h2>
+
+  <div class="experience-item">
+
+    <h4 class="experience-role">
+      Molecular Diagnostics
+    </h4>
+
+    <p>
+      DNA/RNA extraction, cDNA synthesis, PCR, RT-qPCR,
+      primer design, gel electrophoresis, assay QC;
+      blood and tissue specimens.
+    </p>
+
+  </div>
+
+
+  <div class="experience-item">
+
     <h4 class="experience-role">
       Immunohistochemistry (IHC)
     </h4>
+
     <p>
       Tissue immunostaining and assessment of protein expression.
     </p>
-  </article>
 
-</div>
+  </div>
+
+</section>
