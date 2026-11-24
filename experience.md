@@ -140,16 +140,3 @@ permalink: /experience/
   </div>
 
 
-  <div class="experience-item">
-
-    <h4 class="experience-role">
-      Immunohistochemistry (IHC)
-    </h4>
-
-    <p>
-      Tissue immunostaining and assessment of protein expression.
-    </p>
-
-  </div>
-
-</section>
